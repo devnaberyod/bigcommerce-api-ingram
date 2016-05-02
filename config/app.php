@@ -122,6 +122,7 @@ return [
     */
 
     'product_csv_path' => base_path() . '/resources/data/STDPRICE_FULL.csv', //Add .env variable
+    'category_csv_path' => base_path() . '/resources/data/PG.csv', //Add .env variable
 
     'providers' => [
 
