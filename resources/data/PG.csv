@@ -1,0 +1,1687 @@
+ProductGroupCode	Description	ProductGroupLevel
+1000	Computers	1
+1001	Power & Rack Equipment	1
+1002	Storage	1
+1003	Displays	1
+1004	Communications	1
+1005	Networking	1
+1006	Network Security	1
+1007	Printers	1
+1008	Audio/Visual	1
+1009	Office Equipment	1
+1010	Supplies & Media	1
+1011	Input Devices	1
+1012	Services & Warranties	1
+1013	Presentation Devices	1
+1014	Gaming	1
+1015	Software	1
+1016	Physical Security	1
+1017	Cameras & Scanners	1
+1021	Components	1
+1022	Cables	1
+1030	Professional Sound & Entertainment	1
+1033	Connectivity Devices	1
+1040	Training	1
+1042	Printed Media	1
+1043	Electronic Media	1
+1044	Events	1
+1045	Campaigns	1
+1046	Telephone Media	1
+1047	Training	1
+1048	Reseller marketing tools	1
+1049	Data Analytics Services	1
+1050	Home & Appliances	1
+1051	Marketing Consulting Services	1
+1052	Funded Operating Expense	1
+1053	Communities	1
+1054	Other Marketing Services	1
+1055	Ingram Micro Logistics	1
+1056	Non-Cash Incentives	1
+1057	Cash Incentives	1
+1058	Lighting	1
+1060	Jewelry	1
+1090	POS/AIDC/Barcode Products	1
+1098	Toys & Games	1
+1099	Accessories & Components	1
+1000027	Notebook/Tablet Accessories	2
+1000100	Desktops	2
+1000101	Workstations	2
+1000102	Servers	2
+1000103	Notebooks & Tablets	2
+1000104	Barebones Computers	2
+1000105	Thin Clients	2
+1001106	Power Equipment	2
+1001107	Racks & Enclosures	2
+1002004	Unified Network Storage	2
+1002030	Storage Accessories & Components	2
+1002108	Floppy/Removable Media Drives	2
+1002109	Hard Drives	2
+1002110	Backup Devices	2
+1002111	CD/DVD Drives	2
+1002112	Network Attached Storage (NAS)	2
+1002113	Drive Controllers	2
+1002114	Drive Enclosures	2
+1002115	Flash Memory Devices	2
+1002116	SAN Systems & Infrastructure	2
+1002401	Solid State Drives	2
+1003029	Monitor/TV Accessories	2
+1003117	Monitors	2
+1003118	Televisions	2
+1003119	Medical Display Solutions	2
+1003131	Touch Screen Displays	2
+1003408	Commercial/Signage Displays	2
+1003409	Computer Displays	2
+1004028	VHF Radios & Communications Accessories	2
+1004035	Phone Accessories	2
+1004039	Mobility Accessories	2
+1004120	Modems & Connectivity Adapters	2
+1004121	VHF Radios & Communications	2
+1004122	Voice & Fax Equipment	2
+1004123	Phone Systems; Phones & Components	2
+1004124	CSU/DSUs	2
+1004125	Carrier Transport Equipment	2
+1004126	Mobility Devices	2
+1004127	Consumer Telephony Devices	2
+1004128	Video & Audio Conferencing Equipment	2
+1004403	Voice Over IP (VOIP)	2
+1005129	Network Interface Cards	2
+1005130	Wireless Networking	2
+1005140	Switches & Hubs	2
+1005150	Content Networking	2
+1005160	Transceivers & Converters	2
+1005161	Routers & Components	2
+1005162	Device/Terminal/RAS Servers	2
+1005163	Test Equipment	2
+1006164	Network Security	2
+1006165	Physical Security	2
+1007009	Dot Matrix/Line Printers	2
+1007010	Inkjet	2
+1007011	Specialty Printers	2
+1007023	Auto ID Printers	2
+1007024	POS Printers	2
+1007031	Printer/Plotter Accessories	2
+1007166	Laser	2
+1007167	Large Format	2
+1007168	Multifunction Peripherals (MFP)	2
+1007169	Office Electronics and Furniture	2
+1008015	Projectors	2
+1008016	Projection Screens	2
+1008018	Pro Sound & Entertainment	2
+1008021	Whiteboards & Presentation Devices	2
+1008026	Auto/Marine Devices & Accessories	2
+1008032	Projector Accessories	2
+1008037	A/V & Music Accessories	2
+1008170	Home Theater	2
+1008171	Digital Audio/Visual Devices	2
+1008172	Music Devices	2
+1009025	Desk Accessories	2
+1009169	Office Electronics & Furniture	2
+1010173	Printer/Plotter Supplies	2
+1010174	Office Supplies	2
+1010175	Media & Cleaning Cartridges	2
+1011019	Keyboards & Keypads	2
+1011020	Mice/Pointers & Graphic Tables	2
+1012176	Help Desk Services	2
+1012177	Installation Services	2
+1012178	Warranties	2
+1012179	Managed Services	2
+1012180	Vendor Professional Services	2
+1012181	Ingram Micro Services	2
+1012182	Carrier Services	2
+1013183	Projectors	2
+1013184	Projector Screens	2
+1014012	Game Controllers	2
+1014036	Gaming Accessories	2
+1014185	Gaming Consoles	2
+1014186	Games	2
+1015187	Communications Software	2
+1015188	Host Access Software	2
+1015189	Digital Imaging & Signage Software	2
+1015190	Finance Software	2
+1015191	Storage Software	2
+1015192	Office Productivity Software	2
+1015193	Operating System Software	2
+1015194	Developer Software	2
+1015195	Reference & Education Software	2
+1015196	Education Software	2
+1015197	Game Software	2
+1015198	Security Software	2
+1015199	IT Management Software	2
+1015200	Utility Software	2
+1015201	Personal Interest Software	2
+1015202	Data Management Software	2
+1015203	Business Solution Software	2
+1015204	Virtualization Software	2
+1016005	Detection/Fire & Alarm Systems	2
+1016006	Physical Access Control	2
+1016007	Video Surveillance	2
+1017033	Camera Accessories	2
+1017034	Scanner Accessories	2
+1017205	Scanners	2
+1017206	Binoculars/Monoculars	2
+1017207	Cameras	2
+1021013	Graphics Cards	2
+1021014	Optical Drives	2
+1021208	Motherboards	2
+1021209	Computer Cases & Accessories	2
+1021210	Power Supplies	2
+1021211	Processors	2
+1021212	Memory	2
+1021213	TV Tuners & Video Editing	2
+1021214	Sound Cards	2
+1021402	BTO Options	2
+1022215	Computer Cables & Adapters	2
+1022216	Power Cables	2
+1022217	A/V Cables & Adapters	2
+1022218	I/O Device Cables	2
+1022219	Network Cables	2
+1022220	Cabling Components & Tools	2
+1022221	Storage Cables	2
+1030222	Pro Sound & Entertainment Devices & Accs	2
+1033022	Wireless Connectivity Devices	2
+1033223	Serial/Parallel & I/O Cards	2
+1033224	Switching Devices	2
+1033225	USB & Firewire Connectivity	2
+1033226	Keyboards & Keypads	2
+1033227	Pointing Devices & Whiteboards	2
+1033228	PC Game Controllers	2
+1033229	Wireless Connectivity Devices	2
+1040230	Business Development Training	2
+1040231	Certification Training	2
+1040232	Application Training	2
+1040233	Programming & Development Training	2
+1040234	Technology Training	2
+1040235	Ingram Micro Choice Advantage Training	2
+1042273	Publications	2
+1042274	Mailers	2
+1042275	Advertising	2
+1042276	Other Printed Media	2
+1043277	Emails	2
+1043278	Web advertising	2
+1043279	Web sites & stores	2
+1043280	Other Electronic Media	2
+1044281	Trade shows / Showcase	2
+1044282	Conferences / Meetings	2
+1044283	Sales Floor Events	2
+1044284	IM internal / Corporate events	2
+1045285	Multi vendor campaigns	2
+1045286	Single vendor campaigns	2
+1045287	Internal Incentives	2
+1045288	Cash Incentives	2
+1045289	External Incentives	2
+1046290	Telemarketing	2
+1046291	On Hold/Phone Messages	2
+1046292	Fax/SMS	2
+1047293	Internal Training	2
+1047294	External Training	2
+1047295	Demo center	2
+1048296	Reseller marketing tools	2
+1049297	Data Analytics Services	2
+1050008	Luggage & Bags	2
+1050017	Binoculars/Monoculars	2
+1050038	Home Automation	2
+1050236	Large Appliances	2
+1050237	Small Appliances	2
+1050239	Personal Care Products	2
+1051298	Marketing Consulting Services	2
+1052299	Funded Positions	2
+1052302	Funded Capital	2
+1052303	Funded T&E	2
+1052304	Funded IT	2
+1053300	Communities	2
+1054301	Other Marketing Services	2
+1055100	IML Services	2
+1055400	IM Logistics	2
+1056287	Internal Incentives	2
+1056289	External Incentives	2
+1057288	Cash Incentives	2
+1058404	LED Replacement Lamps	2
+1058405	LED Strips, Bars & Modules	2
+1058406	LED Fixtures	2
+1058407	LED Accessories	2
+1060240	Jewelry	2
+1060241	Watches	2
+1090242	AIDC Mobile Terminals	2
+1090243	RFID Reader/Encoder	2
+1090244	AIDC Wireless Infrastructure	2
+1090245	Auto ID Barcode Scanners	2
+1090246	Auto ID Printers	2
+1090247	POS Printers	2
+1090248	POS Terminals	2
+1090249	POS Peripherals	2
+1090250	AIDC/POS Software	2
+1090251	Warranties; Service Fees & Contracts	2
+1090252	Solution Bundles	2
+1090253	Wireless AIDC Accessories	2
+1090254	Auto ID Accessories	2
+1090255	Retail POS Accessories	2
+1090256	Universal Accessories	2
+1090257	Auto ID & Retail POS Supplies	2
+1098001	Toys	2
+1098002	Arts & Crafts	2
+1098003	Musical Instruments	2
+1099258	Desk Accessories	2
+1099259	Auto/Marine Devices & Accessories	2
+1099260	Notebook/Tablet Accessories	2
+1099261	VHF Radios & Communications Accessories	2
+1099262	Mobility Accessories	2
+1099263	Monitor/TV Accessories	2
+1099264	Storage Accessories & Components	2
+1099265	Printer/Plotter Accessories	2
+1099266	Projector Accessories	2
+1099267	Camera Accessories	2
+1099268	Scanner Accessories	2
+1099269	Phone Accessories	2
+1099270	Video Gaming Accessories	2
+1099271	A/V & Music Accessories	2
+1099272	Home Automation	2
+1000027002231	Notebook Accessory Kits	3
+1000027002232	Notebook Cases	3
+1000027002233	Notebook Docks & Stands	3
+1000027002234	Notebook Expansion Bays & Options	3
+1000027002235	Notebook Power Options	3
+1000027002236	Tablet PC Accessories	3
+1000100001000	All-in-One PCs	3
+1000100001001	Desktop PCs	3
+1000100001002	Small Form Factor / Ultra Slim PCs	3
+1000100001003	Tower PCs	3
+1000100002133	Workstations	3
+1000100002150	Barebones PC	3
+1000101001004	Itanium-Based Workstation	3
+1000101001005	Opteron-Based Workstation	3
+1000101001006	P4-Based Workstation	3
+1000101001007	RISC-Based Workstation	3
+1000101001008	XEON-Based Workstation	3
+1000101002060	Intel Core Based Workstations	3
+1000102001009	Blade Servers	3
+1000102001010	Blade Server Components	3
+1000102001011	Tower Servers	3
+1000102001012	Rackmount Servers	3
+1000102002151	Barebones Server	3
+1000103001013	Notebooks	3
+1000103001014	Tablets	3
+1000103002016	Netbooks	3
+1000103002121	Tablets (Slate style)	3
+1000103002134	Ultraportable Notebooks	3
+1000103002152	Barebones Notebooks	3
+1000104001015	Barebones PC	3
+1000104001016	Barebones Servers	3
+1000104001017	Barebones Notebooks	3
+1000105001018	All in One Thin Clients	3
+1000105001019	General Purpose Terminals	3
+1000105001020	Terminal Components	3
+1000105001021	Thin Client Terminals	3
+1000105002135	Zero Clients	3
+1001106001022	Line Conditioners	3
+1001106001023	Power Distribution Units (PDUs) & Compon	3
+1001106001024	Power Inverters	3
+1001106001025	Power Strips	3
+1001106001026	Surge Protectors	3
+1001106001027	UPS Uninterruptible Power Supplies	3
+1001106001028	UPS Batteries	3
+1001106001029	UPS Cables	3
+1001106001030	UPS Components	3
+1001106001031	UPS Management	3
+1001106001032	Voltage Regulators	3
+1001106001033	Generators	3
+1001107001034	Rack Enclosure Components	3
+1001107001035	Rack Enclosures	3
+1001107002136	Open Frame Racks	3
+1001107002137	Wall Mount Racks/Enclosures	3
+1002004002036	EthernetFibre Channel Disk Sys	3
+1002004002037	EthernetUnifiedStorage DiskSys	3
+1002004002038	Unified Storage Components	3
+1002030002246	Data Transfer Kits	3
+1002030002247	Drive Controller Components	3
+1002030002248	Drive Enclosure Components	3
+1002030002249	Drive Interface Converters	3
+1002030002250	Drive Mounting Hardware	3
+1002030002251	Jewel Cases/Labeling & Inserts	3
+1002030002252	Media Storage Products	3
+1002030002253	Optical Device Components	3
+1002030002254	Portable Drive Carrying Cases	3
+1002030002255	Space Management Organizers	3
+1002030002256	Storage Power Options	3
+1002030002257	Tape Array Components	3
+1002030002258	Tape Library Components	3
+1002030002259	Transit Shipping Cases	3
+1002108001036	Floppy & Removable Media Drives	3
+1002108001037	Magneto Optical Devices	3
+1002108001038	Removable Media Drives	3
+1002109001039	EIDE Hard Drives	3
+1002109001040	Fibre Channel Hard Drives	3
+1002109001041	Firewire Hard Drives	3
+1002109001042	Multi-Interface Hard Drives	3
+1002109001043	PCMCIA Hard Drives	3
+1002109001044	SCSI Hard Drives	3
+1002109001045	SATA Hard Drives	3
+1002109001046	USB Hard Drives	3
+1002109001047	SAS (Serial Attached SCSI) Hard Drives	3
+1002109002132	Thunderbolt Hard Drives	3
+1002110001048	Libraries	3
+1002110001049	Tape Drives & Arrays	3
+1002110001050	Backup Accelerators	3
+1002111001051	CD/CD-R/CD-RW Drives	3
+1002111001052	CD/DVD Changers	3
+1002111001053	CD/DVD Duplicators	3
+1002111001054	CD/DVD Jukeboxes & Towers	3
+1002111001055	DVD/CD-RW Combo Drives	3
+1002111001056	DVD/DVD-R/DVD-RW Drives	3
+1002111001057	NAS CD/DVD Devices	3
+1002111001058	Blu-Ray Drives	3
+1002112001059	NAS Disk Systems	3
+1002112001060	NAS Hard Drives	3
+1002112001061	NAS Components	3
+1002113001062	EIDE Drive Controllers	3
+1002113001063	EIDE RAID Drive Controllers	3
+1002113001064	Multi-Interface Drive Controllers	3
+1002113001065	SCSI Drive Controllers	3
+1002113001066	SCSI RAID Drive Controllers	3
+1002113001067	SATA Drive Controllers	3
+1002113001068	Serial ATA RAID Drive Controllers	3
+1002113001069	SAS (Serial Attached SCSI) Drive Control	3
+1002113001070	SAS (Serial Attached SCSI) RAID Drive Co	3
+1002113002058	Multi-Interface RAID Drive Ctlrs	3
+1002114001071	Drive Enclosures	3
+1002114001072	RAID Enclosures	3
+1002114001073	Removable Frame & Carriers	3
+1002115001074	Flash Adapters	3
+1002115001075	Flash Card Cases	3
+1002115001076	Flash Memory Cards	3
+1002115001077	Flash Reader/Card Bundles	3
+1002115001078	Flash Reader/Writers	3
+1002115001079	Portable Flash Drives	3
+1002116001080	Fibre Host Bus Adapters (HBAs)	3
+1002116001081	iSCSI Adapters	3
+1002116001082	SAN GBIC/SFP	3
+1002116001083	SAN Hubs	3
+1002116001084	SAN Routers	3
+1002116001085	SAN Switches	3
+1002116001086	SAN Disk Systems	3
+1002116001087	SAN Hard Drives	3
+1002116001088	SAN Components	3
+1002116002033	iSCSI SAN Disk Sys	3
+1002116002034	Fibre Channel SAN Disk Sys	3
+1002116002035	FC/Iscsi Disk Sys	3
+1002401002051	SATA Solid State Drives (SSD)	3
+1002401002052	IDE Solid State Drives (SSD)	3
+1002401002053	USB Solid State Drives (SSD)	3
+1002401002054	PCI-Express Solid State Drives (SSD)	3
+1002401002097	SAS Solid State Drives (SSD)	3
+1002401002122	Fiber Solid State Drives (SSD)	3
+1002401002123	Expresscard Solid State Drives (SSD)	3
+1002401002124	Thunderbolt Solid State Drives (SSD)	3
+1002401002125	Multi-Interface Solid State Drives (SSD)	3
+1003029002238	Converter Boxes	3
+1003029002239	Display Accessories	3
+1003029002240	LCD Display Carrying Cases	3
+1003029002241	Monitor Anti-Glare Filters	3
+1003029002242	Monitor Overlays	3
+1003029002243	Monitor/Lifts/Arms/Stands/Mounts/Bezels	3
+1003029002244	Remote Controls	3
+1003029002245	TV Accessories	3
+1003117001089	CRT Monitors	3
+1003117001090	LCD/LED Monitors	3
+1003117001091	Plasma Monitors	3
+1003118001092	LCD/LED TVs	3
+1003118001093	Plasma TVs	3
+1003118001094	Projection TV	3
+1003118001095	Televisions	3
+1003119001096	Diagnostic Imaging Displays	3
+1003119001097	Mobile Point of Care Displays & Systems	3
+1003119001098	Patient Monitoring/Charting Displays	3
+1003131002017	LCD Touch Screen Displays	3
+1003131002018	CRT Touch Screen Displays	3
+1003131002019	Plasma Touch Screen Displays	3
+1003131002020	DLP Rear Projection Touch Screen Display	3
+1003408002387	LCD/LED Displays	3
+1003408002388	LCD/LED Touch Screen Displays	3
+1003408002389	Plasma Displays	3
+1003409002390	LCD/LED Monitors	3
+1003409002391	LCD/LED Touch Screen Monitors	3
+1004028002237	VHF Radios & Communications Accessories	3
+1004035002303	Headset Accessories & Cables	3
+1004035002304	Other Phone Accessories & Cables	3
+1004035002305	Phone Amplifiers/Antennas	3
+1004035002306	Phone Cases	3
+1004035002307	Phone Connection Kits	3
+1004035002308	Phone Faceplates	3
+1004035002309	Phone Hands Free Sets	3
+1004035002310	Phone Handsets	3
+1004035002311	Phone Headsets	3
+1004035002312	Phone Noise Suppressors	3
+1004035002313	Phone Power Accessories	3
+1004035002314	Phone Reference Materials	3
+1004035002315	Phone Stands/Mounting	3
+1004039002337	Accessory Kits	3
+1004039002338	Carrying Cases	3
+1004039002339	PDA Expansion Cards	3
+1004039002340	Power Options	3
+1004039002341	Screen Protectors	3
+1004039002342	Styli	3
+1004039002343	Sync Devices & Cables	3
+1004039002344	GPS Accessories	3
+1004039002360	Bluetooth Headsets	3
+1004039002361	Bluetooth Accessories	3
+1004039002362	In-Car Chargers	3
+1004039002363	Speakers & Speaker Docks	3
+1004039002364	Housings & Covers	3
+1004039002365	Mounting Kits	3
+1004039002369	Smart Watches	3
+1004039002370	Smart Watch and Watch Phone Accessories	3
+1004039002371	SIM Cards	3
+1004039002372	Airtime (Tariffs & Plans)	3
+1004039002373	Wired Headsets	3
+1004039002374	Mobile Headset Accessories	3
+1004039002375	Mounts & Stands	3
+1004039002376	Mobility Keyboards	3
+1004039002377	Car/Handsfree Kits/Speakerphones	3
+1004039002378	Mobile Cables & Adapters (not power)	3
+1004039002379	Dummies	3
+1004039002380	Fitness	3
+1004039002381	Smartphone Camera Lenses	3
+1004039002382	App-enabled Accessories	3
+1004120001099	Broadband (Cable/DSL) Modems	3
+1004120001100	Combo Modem/NIC	3
+1004120001101	Dial-Up Modems	3
+1004120001102	Host Connectivity	3
+1004120001103	ISDN & Sync Adapters	3
+1004120001104	Leased Line Modems	3
+1004120001105	Line Sharing Devices	3
+1004120001106	Multi-Modem Devices	3
+1004120001107	Rackmount Modems & Components	3
+1004120001108	Remote Access Modems	3
+1004121001109	2-Way Radios	3
+1004121001110	VHF Radios	3
+1004121001111	Scanners	3
+1004122001112	Fax Servers	3
+1004122001113	Fax Boards	3
+1004122001114	Voice Boards	3
+1004122001115	Voice Mail System Components	3
+1004122001116	Voice Mail System Software	3
+1004122001117	Voice Mail Systems	3
+1004123001118	IP Phones; Software & Components	3
+1004123001119	PBX/IP-PBX Systems	3
+1004123001120	TDM Phone Station Sets & Components	3
+1004123001121	Phone System Cards & Components	3
+1004123001122	Phone System Software	3
+1004124001123	CSU/DSU/SDU Components	3
+1004124001124	CSU/DSU/SDU Devices	3
+1004125001125	Multiplexor Components	3
+1004125001126	Multiplexors	3
+1004125001127	DSL Access Multiplexor	3
+1004125001128	Broadband Loop Carriers	3
+1004125001129	Optical Transport	3
+1004126001130	Mobile Phones	3
+1004126001131	Pagers	3
+1004126001132	GPS / Navigation Devices	3
+1004126001133	PDA	3
+1004126001134	Smart Phones	3
+1004126001135	WWAN AP/Gateways/Cellular Modems	3
+1004126001136	Data Cards	3
+1004126002366	3G/4G Routers	3
+1004126002368	Watch Phones	3
+1004126002383	Wearables	3
+1004127001137	Cordless Phones & Components	3
+1004127001138	Caller ID	3
+1004127001139	Other Devices & Systems	3
+1004128001140	Audio Conferencing Components	3
+1004128001141	Audio Conferencing Units	3
+1004128001142	MultiPoint Video Conference Systems & Ga	3
+1004128001143	Video Conference System Components	3
+1004128001144	Video Conference Systems	3
+1004128001145	Video Conferencing Cameras	3
+1004128001146	Video Conferencing Carts	3
+1004128001147	Video Conferencing Software	3
+1004128002032	Web Conferencing Equipment	3
+1004403002098	IP Phones	3
+1004403002099	Desktop IP Phones	3
+1004403002100	Conference IP Phones	3
+1004403002101	Software-based IP Phones	3
+1004403002102	Consumer IP Phones	3
+1004403002103	Voice Gateways	3
+1004403002104	Video Gateways	3
+1004403002105	VOIP Routers (only for routers that do V	3
+1004403002106	VOIP Wireless Headsets	3
+1004403002107	VOIP Wired Headsets	3
+1004403002138	VOIP Components	3
+1005129001148	ATM Network Cards	3
+1005129001149	Boot ROMs & Brackets	3
+1005129001150	Ethernet NICs	3
+1005129001151	Fast Ethernet NICs	3
+1005129001152	FDDI Cards	3
+1005129001153	Gigabit Ethernet NICs	3
+1005129001154	Phone/Power Line NICS	3
+1005129001155	Token Ring NICs	3
+1005130001156	Antennas & Amplifiers	3
+1005130001157	Wireless Access Points (AP)	3
+1005130001158	Wireless Bridges	3
+1005130001159	Wireless Cabling & Components	3
+1005130001160	Wireless NICs	3
+1005130001161	Wireless Routers & Gateways	3
+1005130001162	Wireless Starter Kits	3
+1005130001163	Wireless Switches	3
+1005140001164	Chassis-Based Switches	3
+1005140001165	Repeaters	3
+1005140001166	Stackable Hubs	3
+1005140001167	Stackable Switches	3
+1005140001168	Standalone Hubs	3
+1005140001169	Standalone Switches	3
+1005140001170	Switch & Hub Components	3
+1005150001171	Content Delivery Equipment	3
+1005150001172	Content Delivery Software/Component	3
+1005150001173	Content Switching & Load Balancers	3
+1005150001174	Media Streaming Devices & Components	3
+1005160001175	Media Converters & Components	3
+1005160001176	Transceivers	3
+1005161001177	Configurable Interface Routers	3
+1005161001178	Fixed Interface Routers	3
+1005161001179	Router Components	3
+1005162001180	Device Servers & Components	3
+1005162001181	Remote Access (RAS) Servers	3
+1005162001182	Terminal/Console Servers & Cpnts	3
+1005163001183	Cable Testers	3
+1005163001184	Network Analysis Devices	3
+1005163001185	Test Equipment Components	3
+1006164001186	Authentication Devices & Components	3
+1006164001187	Content Management Devices & Cpnts	3
+1006164001188	Firewall Devices	3
+1006164001189	IDS/IDP Devices & Components	3
+1006164001190	Security Appliances	3
+1006164001191	VPN Devices	3
+1006164001192	Anti-Virus/Anti-SPAM Device	3
+1006164001193	Network Security Accs & Components	3
+1006165001194	Anti-Theft Devices & Software	3
+1006165001195	Biometric Security Devices & Components	3
+1006165001196	Security Digital Video Recorders/ Compon	3
+1006165001197	Environmental Monitors & Components	3
+1006165001198	Network Video Components	3
+1006165001199	Network/Security Cameras & Components	3
+1006165001200	Video Servers & Components	3
+1006165001201	Observation/Security Bundles	3
+1006165001202	Physical Security Options & Accs.	3
+1007009002164	Dot Matrix Printers	3
+1007009002165	Line Printers	3
+1007010002166	Inkjet Printers	3
+1007010002167	Solid Ink Printers	3
+1007010002168	Inkjet-Baseds MFPs	3
+1007011002157	Business/ID Card Printers	3
+1007011002158	CD/DVD Printers	3
+1007011002159	Label Printers - Home/Office	3
+1007011002160	Photo Printers - Standalone	3
+1007011002384	3D Printers	3
+1007023002207	Barcode Label Printers	3
+1007023002208	Mobile Label Printers	3
+1007023002209	RFID Printers	3
+1007023002210	ID Card Printers	3
+1007024002211	Thermal Receipt Printers	3
+1007024002212	Impact Receipt Printers	3
+1007024002213	Inkjet Receipt Printers	3
+1007024002214	Hybrid Printers	3
+1007024002215	Mobile POS Printers	3
+1007031002260	Plotter Spindles & Roll Feeders	3
+1007031002261	Print Servers & Interface Cards	3
+1007031002262	Printer Carrying Cases & Covers	3
+1007031002263	Printer Duplex Units	3
+1007031002264	Printer Hard Drives	3
+1007031002265	Printer Management Software	3
+1007031002266	Printer Memory	3
+1007031002267	Printer Multifunction/Fax Options	3
+1007031002268	Printer Power Options	3
+1007031002269	Printer Sharing/Extender Devices	3
+1007031002270	Printer Trays/Drawers/Env Feeders	3
+1007031002271	Printer Upgrades	3
+1007031002272	Printer User Manuals	3
+1007031002273	Printer/Plotter Emulation/Font Upgr	3
+1007031002274	Printer/Plotter Furniture	3
+1007031002275	Printer/Plotter Output Options	3
+1007031002276	Push/Pull Tractors	3
+1007166001203	Mono Laser/LED Printers	3
+1007166001204	Business/ID Card Printers	3
+1007166001205	CD/DVD Printers	3
+1007166001206	Color Laser Printers	3
+1007166001207	Dot Matrix Printers	3
+1007166001208	Inkjet Printers	3
+1007166001209	Label Printers- Home/Office	3
+1007166001210	Line Printers	3
+1007166001211	Photo Printers- Standalone	3
+1007166001212	Solid Ink Printers	3
+1007166002161	Color Laser Printers	3
+1007166002162	Mono Laser-Based MFPs	3
+1007166002163	Color Laser Based MFPs	3
+1007167001213	Color Large Format Printers/Plotters	3
+1007168001214	Inkjet-Based Multifunction Printer	3
+1007168001215	Laser-Based Multifunction Printer	3
+1007168002115	Color Laser-Based MFPs	3
+1007169001216	Copy Machines	3
+1007169001217	Fax Machines	3
+1007169001218	Laminators	3
+1007169001219	Office Furniture	3
+1007169001220	Paper & CD/DVD Shredders	3
+1007169001221	Typewriters	3
+1007169001222	Cash Registers	3
+1007169001223	Office Electronics	3
+1008015002176	DLP Projectors	3
+1008015002177	LCD Projectors	3
+1008015002178	Overhead Projectors	3
+1008015002179	LCoS Projectors	3
+1008015002393	LED Projectors	3
+1008016002144	Motorized Projection Screens	3
+1008016002180	Portable Projection Screens	3
+1008016002181	Pull Down Projection Screens	3
+1008018002186	Pro/Entertainment Speakers & Subwoofers	3
+1008018002187	PA/Portable Sound Systems	3
+1008018002188	Pro/Entertainment Microphones	3
+1008018002189	Pro/Entertainment CD/Cassette Players	3
+1008018002190	DJ Equipment	3
+1008018002191	Pro/Entertainment Amps/Mixers/Equalizers	3
+1008018002892	Professional/Entertainment Accessories	3
+1008021002200	Whiteboards	3
+1008021002201	Interactive Presentation Devices	3
+1008021002385	Document Cameras	3
+1008026002225	Auto/Marine Amps/Crossovers/Equalizers	3
+1008026002226	Auto/Marine Receivers	3
+1008026002227	Auto/Marine Speakers & Subwoofers	3
+1008026002228	Vehicle Protection & Convenience Devices	3
+1008026002229	Auto/Marine Accessories	3
+1008026002230	Vehicle Monitors	3
+1008032002277	Projector Screen Accessories	3
+1008032002278	Document Cameras	3
+1008032002279	Projector Cables	3
+1008032002280	Projector Cases & Carts	3
+1008032002281	Projector Lens	3
+1008032002282	Projector Mounting	3
+1008032002283	Projector Network Adapters & Software	3
+1008032002284	Remote Controls/Pointers	3
+1008032002285	Replacement Lamps & Filters	3
+1008037002320	A/V Adapters	3
+1008037002321	Digital A/V Device Accessories	3
+1008037002322	PC Headset/Microphone Combo	3
+1008037002323	PC Headsets/Headphones	3
+1008037002324	PC Microphones	3
+1008037002325	Speakers/Subwoofers & Accessories	3
+1008037002326	Attachable Display Speakers	3
+1008037002327	A/V Remote Controls	3
+1008037002328	A/V Care & Cleaning Supplies	3
+1008037002329	Home Stereo/Theater Accessories	3
+1008037002330	Home Theater Furniture	3
+1008037002331	iPod/MP3 Player Docks	3
+1008037002367	eBook Reader Accessories	3
+1008170001224	Blu-ray & DVD Players	3
+1008170001225	Home Theater Systems	3
+1008170001226	AV Receivers & Amplifiers	3
+1008170001227	A/V Amps; Modulators; Filters & Splitter	3
+1008170001228	AV Equalizers & Mixers	3
+1008170001229	Audio Mixers	3
+1008170001230	A/V Home Theater Distribution & Switchin	3
+1008170002140	CD Players/Turntables/Cassette Players	3
+1008170002141	AV Distribution & Switching	3
+1008170002175	Radios/CD Players	3
+1008171001231	MP3 Players	3
+1008171001232	Digtial Photo Frames	3
+1008171001233	Digital Video Players & Recorders	3
+1008171001234	Voice Recorders	3
+1008171001235	Portable Multimedia Players	3
+1008171002092	eBook Readers	3
+1008171002120	Radios/CD Players	3
+1008171002142	Portable DVD Players	3
+1008172001236	Digital & Acoustic Drums	3
+1008172001237	Music Keyboards	3
+1008172001238	Karaoke Devices	3
+1008172001239	Electric; Bass & Acoustic Guitars	3
+1009025002216	Back & Foot Rests	3
+1009025002217	Calculators	3
+1009025002218	Copy Holders	3
+1009025002219	CPU Stands & Enclosures	3
+1009025002220	Desk Organizers	3
+1009025002221	Dust Covers	3
+1009025002222	Keyboard Accessories	3
+1009025002223	Mouse & Keyboard Pads & Rests	3
+1009025002224	Travel Lights & Fans	3
+1009169001274	Typewriters	3
+1009169002139	Electronic Dictionaries	3
+1009169002169	Copiers	3
+1009169002170	Faxes	3
+1009169002171	Laminators	3
+1009169002172	Office Furniture	3
+1009169002173	Paper & CD/DVD Shredders	3
+1010173001240	Dot Matrix Supplies	3
+1010173001241	Fax/Copier Supplies	3
+1010173001242	Inkjet Printer Supplies	3
+1010173001243	Laser Printer Supplies	3
+1010173001244	Multifunction Printer Supplies	3
+1010173001245	Plotter Supplies & Media	3
+1010173001246	Thermal Printer Supplies	3
+1010173001247	Solid Ink Printer Supplies	3
+1010173002386	3D Printer Supplies	3
+1010174001248	Calculator/Typewriters Supplies	3
+1010174001249	CD Sleeves	3
+1010174001250	Decals & Stickers	3
+1010174001251	Filing Products	3
+1010174001252	General Cleaning Supplies	3
+1010174001253	General Purpose Batteries	3
+1010174001254	ID Cards/Holders/Labels	3
+1010174001255	Labels & Applicators	3
+1010174001256	Laminating Supplies	3
+1010174001257	Paper/Envelopes	3
+1010174001258	Scanner Supplies	3
+1010174001259	Transparencies/Films	3
+1010174001260	Writing Supplies	3
+1010174001261	Display Fixtures	3
+1010174002043	Packaging Materials	3
+1010174002044	Vendor Documentation	3
+1010175001262	Audio/Visual Tapes	3
+1010175001263	Cleaning Cartridges	3
+1010175001264	Floppy Diskettes	3
+1010175001265	Optical CD/DVD/Magneto Media	3
+1010175001266	Removable Cartridge Media	3
+1010175001267	Tape Media	3
+1010175001268	Barcode Labels for Tape Cartridges	3
+1011019002193	Keyboards	3
+1011019002194	Keypads	3
+1011019002195	Keyboard/Mouse Combos	3
+1011020002196	Graphics Tablets/Stylus	3
+1011020002197	Mice	3
+1011020002198	Touchpads	3
+1011020002199	Trackballs	3
+1012176001269	Internet Support	3
+1012176001270	Phone Support	3
+1012177001271	Hardware Installation Services	3
+1012177001272	Software Installation Services	3
+1012178001273	Extended Warranties	3
+1012178001274	Upgrade Warranties	3
+1012178001275	Warranty Renewals	3
+1012179001276	Remote Monitoring & Management	3
+1012179001277	Print Monitoring & Management	3
+1012179001278	Labor, Network Operations Management	3
+1012179001279	Storage; Online Backup & Restore	3
+1012179001280	Software As A Service	3
+1012179001281	Security; Email & Web Defense	3
+1012179002116	Data Center Virtualization	3
+1012179002117	Enterprise Communications	3
+1012179002118	Hardware As A Service	3
+1012179002119	Hosted Email/Messaging	3
+1012180001282	Custom Consulting Services	3
+1012180001283	Deployment Services	3
+1012180001284	Hardware Configuration Services	3
+1012180001285	Integration (BTO/CTO) Services	3
+1012180001286	Inventory Services	3
+1012180001287	Mobile Wireless Config Services	3
+1012180001288	Project Management Services	3
+1012180001289	Recovery Services	3
+1012180001290	Remote Monitoring Services	3
+1012180001291	Site Survey Services	3
+1012180001292	Software Configuration Services	3
+1012180001293	Wireless Networking Services	3
+1012180002143	Support Services	3
+1012181001294	Ingram Micro Choice Adv Services	3
+1012181001295	Ingram Micro Help Desk Services	3
+1012181001296	Ingram Micro Integration Services	3
+1012181001297	Ingram Micro Logistics Services	3
+1012181001298	Ingram Micro Notes Content Services	3
+1012181001299	Ingram Micro Services Network- IMSN	3
+1012182001300	ASP Services	3
+1012182001301	Broadband Services	3
+1012182001302	ISP Services	3
+1012182001303	Wireless Communications Services	3
+1013183001304	DLP Projectors	3
+1013183001305	LCD Projectors	3
+1013183001306	Overhead Projectors	3
+1013183002108	LCoS Projectors	3
+1013184001307	Portable Projection Screens	3
+1013184001308	Pull Down Projection Screens	3
+1014012002202	Gamepads	3
+1014012002203	Joysticks	3
+1014012002204	Steering Wheels	3
+1014036002316	Console Accessories	3
+1014036002317	Game Cases	3
+1014036002318	Other Gaming Accessories	3
+1014036002319	Video Game Cables & Adapters	3
+1014036002392	Gaming Subscriptions & Membership Cards	3
+1014185001309	Microsoft Game Systems	3
+1014185001310	Nintendo Game Systems	3
+1014185001311	Sony Game Systems	3
+1014186001312	1st Person Shooter Games	3
+1014186001313	Action/Adventure Games	3
+1014186001314	Compilation Games	3
+1014186001315	Family/Children's Games	3
+1014186001316	Fighting Games	3
+1014186001317	Music Games	3
+1014186001318	Puzzle Games	3
+1014186001319	Racing Games	3
+1014186001320	Role Playing Games	3
+1014186001321	Simulation Games	3
+1014186001322	Sports Games	3
+1014186001323	Strategy Games	3
+1015187001324	Communication Software Suites	3
+1015187001325	E-Mail Software	3
+1015187001326	Faxing Software	3
+1015187001327	Messaging/Collab Server Software	3
+1015187001328	Mobile/Synchronization Software	3
+1015187001329	Communication ESD SW with Download Prote	3
+1015187001330	Communication ESD SW without Download Pr	3
+1015188001331	Remote Access Software	3
+1015188001332	Terminal/Host Emulation Software	3
+1015188001333	Thin Client Software	3
+1015188001334	Host Access ESD SW with Download Protect	3
+1015188001335	Host Access ESD SW without Download Prot	3
+1015189001336	Digital Signage Software	3
+1015189001337	Animation Software	3
+1015189001338	CAD/CAM Software	3
+1015189001339	Clip Art Software	3
+1015189001340	Color Matching Software	3
+1015189001341	Creative Printing Software	3
+1015189001342	Draw/Paint Software	3
+1015189001343	Font Software	3
+1015189001344	Imaging Suite Software	3
+1015189001345	Multimedia Player Software	3
+1015189001346	OCR & Scanning Software	3
+1015189001347	Photo Editing/Album Software	3
+1015189001348	Video/Audio Editing Software	3
+1015189001349	Digital Imaging & Signage ESD SW with Do	3
+1015189001350	Digital Imaging & Signage ESD SW without	3
+1015190001351	Accounting/Billing Software	3
+1015190001352	ERP Software	3
+1015190001353	Financial Suite Software	3
+1015190001354	Payroll Software	3
+1015190001355	Personal Finance Software	3
+1015190001356	Tax Software	3
+1015190001357	Finance ESD SW with Download Protection	3
+1015190001358	Finance ESD SW without Download Protecti	3
+1015191001359	Back-up Software	3
+1015191001360	Disaster/File Recovery Software	3
+1015191001361	Data Recording/Copying & Migration Softw	3
+1015191001362	Storage Management Software	3
+1015191001363	Virtual Drive Software	3
+1015191001364	Storage ESD SW with Download Protection	3
+1015191001365	Storage ESD SW without Download Protecti	3
+1015192001366	Calendar/Contact Management	3
+1015192001367	Desktop Publishing Software	3
+1015192001368	Integrated Office Suites	3
+1015192001369	Labeling Software	3
+1015192001370	Presentation Software	3
+1015192001371	Spreadsheet Software	3
+1015192001372	Wordprocessor Software & Add-ons	3
+1015192001373	Voice Dictation/Recognition Softw	3
+1015192001374	Office Productivity ESD SW with Download	3
+1015192001375	Office Productivity ESD SW without Downl	3
+1015193001376	IBM Operating System Software	3
+1015193001377	Linux Operating System Software	3
+1015193001378	Mac Operating System Software	3
+1015193001379	Netware Operating System	3
+1015193001380	Unix Operating System Software	3
+1015193001381	Windows Operating System Software	3
+1015193001382	DOS Operating System Software	3
+1015193001383	Operating System ESD SW with Download Pr	3
+1015193001384	Operating System ESD SW without Download	3
+1015194001385	Application Development	3
+1015194001386	Developer Suites	3
+1015194001387	Flow-charting/Diagramming Software	3
+1015194001388	Internet/Web Development	3
+1015194001389	Object Libraries	3
+1015194001390	Programming Languages/Compilers	3
+1015194001391	Version Management Software	3
+1015194001392	Developer ESD SW with Download Protectio	3
+1015194001393	Developer ESD SW without Download Protec	3
+1015195001394	Almanac Software	3
+1015195001395	Bundles/Reference Suites	3
+1015195001396	Business/Career/Resume Development Softw	3
+1015195001397	College Handbook Software	3
+1015195001398	Dictionary Software	3
+1015195001399	Encyclopedia Software	3
+1015195001400	Internet Reference Software	3
+1015195001401	Language Translation Software	3
+1015195001402	Legal Software	3
+1015195001403	Map/Atlas Software	3
+1015195001404	Medical Software	3
+1015195001405	Phone Directory Software	3
+1015195001406	Statistics Software	3
+1015195001407	Technical Reference Software	3
+1015195001408	Test Preparation Software	3
+1015195001409	Reference ESD SW with Download Protectio	3
+1015195001410	Reference ESD SW without Download Protec	3
+1015195002145	Reference Software	3
+1015195002146	Education Software	3
+1015196001411	Art & Music Learning Software	3
+1015196001412	Bundled Education Software	3
+1015196001413	Computer Science Software	3
+1015196001414	Creativity Software	3
+1015196001415	Critical Thinking Software	3
+1015196001416	Electronic Book Software	3
+1015196001417	Foreign Language Software	3
+1015196001418	Geography Software	3
+1015196001419	History/News Software	3
+1015196001420	Language Arts Software	3
+1015196001421	Literature Software	3
+1015196001422	Math Software	3
+1015196001423	Multi-subject Software	3
+1015196001424	Reading Software	3
+1015196001425	Science Software	3
+1015196001426	Spelling Software	3
+1015196001427	Study Skills Software	3
+1015196001428	Teacher Resource Software	3
+1015196001429	Typing Software	3
+1015196001430	Writing Software	3
+1015196001431	Education ESD Software with Download Pro	3
+1015196001432	Education ESD Software without Download	3
+1015197001433	Action/Adventure Game Software	3
+1015197001434	Arcade Games	3
+1015197001435	Card/Casino Game Software	3
+1015197001436	Family/Children's Game Software	3
+1015197001437	Fighting Game Software	3
+1015197001438	First Person Shooter Game Software	3
+1015197001439	Other Game Software	3
+1015197001440	Role Playing Game Software	3
+1015197001441	Simulation Game Software	3
+1015197001442	Sports Game Software	3
+1015197001443	Strategy Game Software	3
+1015197001444	Game ESD Software with Download Protecti	3
+1015197001445	Game ESD Software without Download Prote	3
+1015198001446	Access Control Software	3
+1015198001447	Anti-Spam Software	3
+1015198001448	Authentication Software	3
+1015198001449	Bandwidth Management Software	3
+1015198001450	Content Filtering/Management Softw	3
+1015198001451	Encryption Software	3
+1015198001452	Firewall/VPN Software	3
+1015198001453	Intrusion Detection (IDS) Software	3
+1015198001454	Regulation Compliance Software	3
+1015198001455	Security Management Software	3
+1015198001456	Security Suite Software	3
+1015198001457	Surveillance Software	3
+1015198001458	Virus Protection Software	3
+1015198001459	Vulnerability Assessment Software	3
+1015198001460	Security ESD Software with Download Prot	3
+1015198001461	Security ESD Software without Download P	3
+1015198002093	Anti-Theft Software	3
+1015198002094	Physical Access Control Mgr Sw	3
+1015199001462	Application Management/Monitoring Softwa	3
+1015199001463	Clustering Software	3
+1015199001464	Help Desk Software	3
+1015199001465	IT Asset Management Software	3
+1015199001466	Network Analysis Software	3
+1015199001467	Network Management/Monitoring Software	3
+1015199001468	UPS Management Software	3
+1015199001469	IT Management ESD SW with Download Prote	3
+1015199001470	IT Management ESD SW without Download Pr	3
+1015200001471	File Conversion Software	3
+1015200001472	File/Internet Sharing Software	3
+1015200001473	O/S Management & Partitioning Softw	3
+1015200001474	Screen Saver Software	3
+1015200001475	System Optimization Software	3
+1015200001476	Utility Suites	3
+1015200001477	Utility ESD SW with Download Protection	3
+1015200001478	Utility ESD SW without Download Protecti	3
+1015201001479	Astrology Software	3
+1015201001480	Auto/Transportation Software	3
+1015201001481	Bible/Religion Software	3
+1015201001482	Bundled Personal Interest Software	3
+1015201001483	Buying/Selling Software	3
+1015201001484	Cooking Software	3
+1015201001485	Cultural Software	3
+1015201001486	Gardening Software	3
+1015201001487	Genealogy Software	3
+1015201001488	Greeting Card Software	3
+1015201001489	Health/Nutrition Software	3
+1015201001490	Home Design/Repair Software	3
+1015201001491	Lottery Software	3
+1015201001492	Movies	3
+1015201001493	Music/Sound Software	3
+1015201001494	Parenting Software	3
+1015201001495	Personal Improvement Software	3
+1015201001496	Personal Organizer Software	3
+1015201001497	Pet Knowledge Software	3
+1015201001498	Sport Knowledge Software	3
+1015201001499	Travel Software	3
+1015201001500	Wedding Software	3
+1015201001501	Personal Interest ESD SW with Download P	3
+1015201001502	Personal Interest ESD SW without Downloa	3
+1015201002147	General Interest Software	3
+1015202001503	Database Software	3
+1015202001504	Database Plug-ins/Development Tools	3
+1015202001505	Document/Info Management Software	3
+1015202001506	Forms Design Software	3
+1015202001507	PDF Creation & Management Software	3
+1015202001508	Report Creation Software	3
+1015202001509	Data Management ESD SW with Download Pro	3
+1015202001510	Data Management ESD SW without Download	3
+1015203001511	Application Server Software	3
+1015203001512	Business Solution Suite Software	3
+1015203001513	CRM Software	3
+1015203001514	Ecommerce Software	3
+1015203001515	Human Resources Software	3
+1015203001516	Learning Management Software	3
+1015203001517	Middleware Software	3
+1015203001518	Portal Software	3
+1015203001519	Process Management Software	3
+1015203001520	Project Management Software	3
+1015203001521	Server Suite Software	3
+1015203001522	Business Solution ESD SW with Download P	3
+1015203001523	Business Solution ESD SW without Downloa	3
+1015204001524	Hypervisor SW  Srvr Virtualization	3
+1015204001525	Hypervisor Mgmt SW  Srvr Virtualization	3
+1015204001526	Utility SW  Srvr Virtualization	3
+1015204002048	Hypervisor SW  DT Virtualization	3
+1015204002049	Hypervisor Mgmt SW  DT Virtualization	3
+1015204002050	Utility SW  DT Virtualization	3
+1016005002069	Anti-Theft Devices	3
+1016005002070	Environmental Monitors & Components	3
+1016005002071	Emergency Alerting Systems	3
+1016005002072	Fire & Intrusion Alarm Systems	3
+1016005002073	Metal Detectors	3
+1016006002074	Biometric Security Devices & Components	3
+1016006002075	Observation/Security Bundles	3
+1016006002076	Physical Security Options & Accs.	3
+1016006002077	Physical Access Control Mgmnt	3
+1016006002078	Proximity Devices	3
+1016007002079	Security Digital Video Recorders	3
+1016007002080	Network Video Recorders	3
+1016007002081	Hybrid Video Recorders	3
+1016007002082	Network Video Surveillance Cameras	3
+1016007002083	Analog Video Surveillance Cameras	3
+1016007002084	Video Surveillance Components	3
+1016007002085	Video Encoders & Components	3
+1016007002086	Video Surveillance Enclosures	3
+1017033002286	Camera Accessory Kits	3
+1017033002287	Camera Cables	3
+1017033002288	Camera Cases	3
+1017033002289	Camera Docks/ Cradles	3
+1017033002290	Camera Flash/Lights	3
+1017033002291	Camera Lens/Adapters/Filters/Hoods	3
+1017033002292	Camera Power Options	3
+1017033002293	Camera Remote Controls	3
+1017033002294	Camera Tripods & Monopods	3
+1017034002295	Document/Network Scan Servers	3
+1017034002296	Scanner ADF Auto Document Feeders	3
+1017034002297	Scanner Carrying Cases	3
+1017034002298	Scanner Consumables/AC Adapters & Kits	3
+1017034002299	Scanner Film Holders/Feeders	3
+1017034002300	Scanner Imprinters & Endorsers	3
+1017034002301	Scanner Interface Cards	3
+1017034002302	Scanner Slide Adapters	3
+1017205001527	3D Scanners	3
+1017205001528	Business/ID Card Scanners	3
+1017205001529	Handheld Scanners	3
+1017205001530	Home/Office Scanners	3
+1017205001531	Photo Scanners	3
+1017205001532	Production/Enterprise Scanners	3
+1017205001533	Slide/Film/Transparency Scanners	3
+1017206001534	General Use Binoculars	3
+1017206001535	Night Vision Binoculars	3
+1017206001536	General Use Monoculars	3
+1017206001537	Night Vision Monoculars	3
+1017207001538	Analog (8mm/Hi8) Camcorders	3
+1017207001539	Camera/Printer Bundles	3
+1017207001540	Digital Cameras	3
+1017207001541	Digital camcorders	3
+1017207001542	Film Cameras	3
+1017207001543	Webcams	3
+1017207001544	Underwater Cameras	3
+1021013002148	nVidia Graphics Cards	3
+1021013002149	AMD Graphics Cards	3
+1021014002153	CD Drives & Burners	3
+1021014002154	CD/DVD Duplicators	3
+1021014002155	DVD Drives & Burners	3
+1021014002156	Blu-Ray Drives & Burners	3
+1021208002021	AMD Socket AM3 Mthrbrds	3
+1021208002022	AMDScktFDualMltiProcsrMthrbrds	3
+1021208002023	AMD Socket PGA939 Mthrbrds	3
+1021208002024	AMD Socket PGA940 Mthrbrds	3
+1021208002025	Intel Socket LGA775 Mthrbrds	3
+1021208002026	Intel Socket LGA1366 DualMulti-Proc MB	3
+1021208002027	Intel Socket LGA771 Motherboards	3
+1021208002028	Intel Socket PGA478 Mthrbrds	3
+1021208002029	Intel Socket PGA479 Mthrbrds	3
+1021208002030	Intel Socket PGA604 Mthrbrds	3
+1021208002031	IntelScktBGA437MthrbrdswPrcsr	3
+1021208002039	AMD Socket AM2 Motherboards	3
+1021208002040	AMD Socket AM2+ Motherboards	3
+1021208002041	Motherboard Components	3
+1021208002042	IntelScktBGA479wProcsr	3
+1021208002045	UltraSparc Motherboards	3
+1021208002055	Intel Socket LGA1155 Motherboard	3
+1021208002056	Intel Socket LGA1156 Motherboard	3
+1021208002057	AMD Socket LGA1944/G34 MB	3
+1021208002059	Intel Socket LGA1567 Motherboards	3
+1021208002065	AMD Socket AM3+ Motherboards	3
+1021208002066	AMD Socket BGA413 MB w/ Proc	3
+1021208002109	Intel Single Processor Motherboards	3
+1021208002110	Intel Multi Processor Motherboards	3
+1021208002111	Intel Mobile Processor Motherboards	3
+1021208002112	AMD Single Processor Motherboards	3
+1021208002113	AMD Multi Processor Motherboards	3
+1021208002114	AMD Mobile Processor Motherboards	3
+1021208002345	AMD Motherboards	3
+1021208002346	Intel Motherboards	3
+1021209001560	Computer Case Accessories	3
+1021209001561	PC Cases	3
+1021209001562	Server Cases	3
+1021210001563	Case Specific Power Supplies	3
+1021210001564	Generic Power Supplies	3
+1021210001565	System Specific Power Supplies	3
+1021211001566	AMD Mobile Processors	3
+1021211001567	AMD Multi Processors	3
+1021211001568	AMD Single Processors	3
+1021211001569	Intel Mobile Processors	3
+1021211001570	Intel Multi Processors	3
+1021211001571	Intel Single Processors	3
+1021211001572	Processor Accelerators	3
+1021211002046	UltraSparc Processors	3
+1021211002347	AMD Processors	3
+1021211002348	Intel Processors	3
+1021212001573	Generic Memory	3
+1021212001574	Proprietary Memory	3
+1021213001575	Scan Converters	3
+1021213001576	TV & Audio Tuners	3
+1021213001577	Video Capture Cards	3
+1021213001578	Video Cards	3
+1021213001579	Video Combo Cards & Devices	3
+1021214001580	External Sound Devices	3
+1021214001581	Internal Sound Cards	3
+1021402002061	BTO Options for Servers	3
+1021402002062	BTO Options for PCs	3
+1021402002063	BTO Options for Workstations	3
+1021402002064	BTO Options for Notebooks	3
+1021402002067	BTO Options for Services	3
+1021402002068	BTO Options for Software	3
+1022215001582	File Transfer Cables	3
+1022215001583	Firewire Cables & Adapters	3
+1022215001584	Telephony Cables & Adapters	3
+1022215001585	Serial Cables & Adapters	3
+1022215001586	USB Cables & Adapters	3
+1022216001587	Power Cables	3
+1022216001588	Extension Cords	3
+1022217001589	Audio & Video Cables & Adapters	3
+1022217001590	Audio Cables & Adapters	3
+1022217001591	Monitor Cables & Adapters	3
+1022217001592	Speaker Wire	3
+1022217001593	Video Cables & Adapters	3
+1022218001594	Joystick Cables & Adapters	3
+1022218001595	Keyboard/Mouse Cables & Adapters	3
+1022218001596	KVM Switch Cables & Adapters	3
+1022218001597	Modem Cables & Adapters	3
+1022218001598	Printer Cables & Adapters	3
+1022219001599	Twisted Pair Cables & Adapters	3
+1022219001600	Fibre Optic Cables & Adapters	3
+1022219001601	Modular Connectors	3
+1022219001602	Proprietary Network Device Cables	3
+1022219001603	Token Ring Cables	3
+1022219001604	Ethernet Coax Cables & Adapters	3
+1022220001605	Cable Management	3
+1022220001606	Jacks; Outlets & Faceplates	3
+1022220001607	Patch Panels & Mounting	3
+1022220001608	Tools & Toolkits	3
+1022220001609	Structured Wiring & Components	3
+1022221001610	Drive Power Cables	3
+1022221001611	External Storage Cables & Adapters	3
+1022221001612	Internal Storage Cables & Adapters	3
+1030222001613	Professional/Entertainment Speakers & Su	3
+1030222001614	PA/Portable Sound Systems	3
+1030222001615	Professional/Entertainment Microphones	3
+1030222001616	Professional/Entertainment CD/Cassette P	3
+1030222001617	DJ Equipment	3
+1030222001618	Professional/Ent. Amps; Mixers; Equalize	3
+1030222001619	Professional/Entertainment Accessories &	3
+1033022002205	Bluetooth Connectivity Devices	3
+1033022002206	Infrared Connectivity Devices	3
+1033223001620	I/O Combo Cards	3
+1033223001621	Multiport Serial Devices & Cables	3
+1033223001622	Parallel Cards	3
+1033223001623	Serial Cards	3
+1033224001624	Video Switchboxes & Splitters (for Compu	3
+1033224001625	KVM Switches & Components	3
+1033224001626	Serial/Par Switchboxes & Extenders	3
+1033224001627	USB Device Switchboxes	3
+1033224002047	A/V&AudioExtDevices	3
+1033225001628	Firewire Connectivity Devices	3
+1033225001629	USB Connectivity Devices	3
+1033225001630	USB/Firewire Connectivity Devices	3
+1033226001631	Keyboards	3
+1033226001632	Keypads	3
+1033226001633	Keyboard/Mouse Combos	3
+1033227001634	Graphics Tablets/Stylus	3
+1033227001635	Mice	3
+1033227001636	Touchpads	3
+1033227001637	Trackballs	3
+1033227001638	Whiteboards	3
+1033227001639	Interactive Presentation Devices	3
+1033228001640	Gamepads	3
+1033228001641	Joysticks/Flightsticks	3
+1033228001642	Wheels & Pedals	3
+1033229001643	Bluetooth Connectivity Devices	3
+1033229001644	Infrared Connectivity Devices	3
+1040230001645	Customer Service Training	3
+1040230001646	Financial Training	3
+1040230001647	General Business Training	3
+1040230001648	Human Resources Training	3
+1040230001649	Leadership/Management Training	3
+1040230001650	Project Management Training	3
+1040230001651	Safety Training	3
+1040230001652	Sales Training	3
+1040231001653	Apple Certification Training	3
+1040231001654	Cisco Certification Training	3
+1040231001655	CompTia Certification Training	3
+1040231001656	General Certification Training	3
+1040231001657	Linux Certification Training	3
+1040231001658	Microsoft Certification Training	3
+1040231001659	Novell Certification Training	3
+1040232001660	Database Training	3
+1040232001661	Desktop Publishing Training	3
+1040232001662	E-mail/Messaging Training	3
+1040232001663	General Application Training	3
+1040232001664	Multimedia/Graphics Training	3
+1040232001665	Operating System Training	3
+1040232001666	Presentation Training	3
+1040232001667	Spreadsheet Training	3
+1040232001668	Suite Training	3
+1040232001669	Word Processing Training	3
+1040233001670	General Programming Training	3
+1040233001671	Programming Language Training	3
+1040233001672	Web Programming & Design Training	3
+1040234001673	General Technology Training	3
+1040234001674	Internet/eCommerce Training	3
+1040234001675	Network Training	3
+1040234001676	Security Training	3
+1040234001677	Storage Training	3
+1040235001678	Ingram Micro Classroom Training	3
+1040235001679	Ingram Micro Self Guided Training	3
+1042273001922	Brochures	3
+1042273001923	Catalogues	3
+1042273001924	Newsletters	3
+1042273001925	Guides	3
+1042274001926	Standard	3
+1042274001927	Postcards	3
+1042274001928	Nimax	3
+1042275001929	Reseller Advertising	3
+1042275001930	CMP	3
+1042275001931	Channel Advisor	3
+1042275001932	End User	3
+1042276001933	Binder	3
+1042276001934	CD Book	3
+1042276001935	Dimensionals	3
+1042276001936	Signage	3
+1043277001937	Communities	3
+1043277001938	Standard	3
+1043277001939	Targeted	3
+1043277001940	Evite	3
+1043278001941	Banners	3
+1043278001942	Categories ads	3
+1043279001943	Web site	3
+1043279001944	Vendor stores	3
+1043279001945	Web pages	3
+1043280001946	Presentations	3
+1043280001947	Survey	3
+1043280001948	Registration	3
+1043280001949	Webinars	3
+1044281001950	Roadshows	3
+1044281001951	Consumer shows	3
+1044281001952	Showcase	3
+1044282001953	Meetings	3
+1044282001954	Conferences	3
+1044283001955	Access fee	3
+1044283001956	Animations	3
+1044283001957	Hot seats	3
+1044283001958	Entertainment	3
+1044284001959	Press conferences	3
+1044284001960	Parties	3
+1045285001961	Technology	3
+1045285001962	Vertical	3
+1045285001963	Communities	3
+1045286001964	End User Lead generation	3
+1045287001967	Sales specialist spiffs	3
+1045289001970	Loyalty program	3
+1045289001971	Incentive trips	3
+1046290001972	Reseller telemarketing	3
+1046290001973	End user telemarketing	3
+1046291001974	On hold message	3
+1046291001975	Phone message	3
+1046292001976	Fax	3
+1046292001977	SMS	3
+1047293001978	Demo corner	3
+1047293001979	Sales floor training	3
+1047294001980	Solution Center	3
+1047294001981	Technical training	3
+1047295001982	Demo center	3
+1048296001983	Agency Express	3
+1048296001984	CAP program	3
+1049297001985	Trending	3
+1049297001986	Studies	3
+1049297001987	Propensity	3
+1049297001988	Shopping cart analysis	3
+1049297001989	Trending - Studies - Propensity - Shoppi	3
+1049297001990	Market research	3
+1050008002087	Rolling Luggage	3
+1050008002088	Luggage Sets	3
+1050008002089	Carry-On Luggage	3
+1050008002090	Briefcases	3
+1050008002091	Planners/Padfolios	3
+1050017002182	General Use Binoculars	3
+1050017002183	Night Vision Binoculars	3
+1050017002184	General Use Monoculars	3
+1050017002185	Night Vision Monoculars	3
+1050038002332	Light Switches	3
+1050038002333	Home Automation Modules	3
+1050038002334	Home Automation Accessories	3
+1050038002335	Home Automation System Controllers	3
+1050038002336	Home Automation Sensors	3
+1050236001680	Central Vacuum Systems & Accs.	3
+1050236001681	Air Filtration Systems & Accs.	3
+1050236001689	Air Conditioners	3
+1050236001690	Freezers	3
+1050236001691	Refrigerators	3
+1050236001692	Washers/Dryers	3
+1050237001682	Cookers/Steamers	3
+1050237001683	Microwave Ovens	3
+1050237001684	Microwave/Toaster Ovens	3
+1050237001685	Vacuum Cleaners	3
+1050237001686	Radios/CD Players	3
+1050237001687	Clocks	3
+1050237001688	Other Electronics	3
+1050239001693	Personal Care Devices	3
+1050239001694	Dietary Supplements	3
+1051298001991	Branding	3
+1051298001992	PR Services	3
+1051298001993	Media Planning	3
+1051298001994	Design	3
+1052299001995	Funded Positions	3
+1052302001996	Funded Capital	3
+1052303001997	Funded T&E	3
+1052304001998	Funded IT	3
+1053300002000	Fees	3
+1053300002001	Invitationals	3
+1053300002002	Social networks	3
+1054301002003	Other	3
+1055100100001	IML Services Inbound	3
+1055100100002	IML Services Outbound	3
+1055100100003	IML Services Storage	3
+1055100100004	IML Services VAS	3
+1055100100005	IML Services IT Fees	3
+1055100100006	IML Services Freight Revenues	3
+1055100100007	IML Services Freight Costs	3
+1055100100008	IML Services Returns	3
+1055100100009	IML Services Start Up Fees	3
+1055100100010	IML Services Fixed Fees	3
+1055400003000	IML	3
+1055400003001	IM Logistics Apparel	3
+1055400003002	IM Logistics Non-Conveyable	3
+1055400003003	IM Logistics Systems	3
+1055400003004	IM Logistics Accessories	3
+1055400003005	IM Logistics Ink	3
+1055400003006	IM Logistics Toner	3
+1055400003007	IM Logistics Heavy Bags	3
+1055400003008	CI - Prepay SIM Card	3
+1055400003009	CI - Postpay SIM Card	3
+1055400003010	CI - Devices	3
+1055400003011	CI - Accessories	3
+1055400003012	Network Equipment	3
+1055400003013	Facilities Corporate	3
+1055400003014	Hard VM (Visual Merchandise)	3
+1055400003015	Soft VM (Visual Merchandise)	3
+1055400003016	Retail Fixtures	3
+1055400003017	Facilities Repair and Maintenance	3
+1055400003018	Commercial	3
+1056287001965	Sales rep incentives	3
+1056287001966	Blitz Days	3
+1056287001968	Sales specialist spiffs	3
+1056289001970	Loyalty program	3
+1056289001971	Incentive trips	3
+1057288001969	Cash Incentives	3
+1058404002349	LED Light Bulbs	3
+1058404002350	LED Tubes	3
+1058405002351	LED Strips	3
+1058405002352	LED Bars	3
+1058405002353	LED Modules	3
+1058406002354	LED Indoor Lighting	3
+1058406002355	LED Outdoor Lighting	3
+1058407002356	LED Power Supplies	3
+1058407002357	LED Heat Sinks & Thermal Management	3
+1058407002358	LED Transformers & Drivers	3
+1058407002359	LED Control Panels	3
+1060240001695	Rings	3
+1060240001696	Earrings	3
+1060240001697	Bracelets	3
+1060240001698	Necklaces	3
+1060241001699	Men's Watches	3
+1060241001700	Ladies' Watches	3
+1060241001701	Children's Watches	3
+1060241001702	Unisex Watches	3
+1060241001703	Specialty Watches	3
+1060241001704	Straps & Accessories	3
+1090242001705	Keyboard Based Terminals	3
+1090242001706	Pen Based Terminals	3
+1090242001707	Vehicle Mount Terminals	3
+1090242001708	Specialty Terminals	3
+1090242002126	Portable Data Terminals	3
+1090243001709	Handheld RFID Reading Terminals	3
+1090243001710	Fixed Mount RFID Reader/Encoder	3
+1090243001711	Portable/Handheld RFID Readers	3
+1090243001712	RFID Antennas	3
+1090244001713	AIDC Access Points	3
+1090244001714	AIDC Wireless Adapters	3
+1090244001715	AIDC Wireless Switches	3
+1090244001716	AIDC Antennas & Access Ports	3
+1090245001717	Wand Barcode Readers	3
+1090245001718	Handheld Scanners	3
+1090245001719	Presentation Scanners	3
+1090245001720	In-Counter Scanners	3
+1090245001721	Fixed Mount Scanners	3
+1090245001722	Specialty Scanners	3
+1090245001723	Barcode Verifiers	3
+1090245001724	Barcode Slot Reader	3
+1090245001725	Scanner Cables	3
+1090246001726	Barcode Label Printers	3
+1090246001727	Mobile Label Printers	3
+1090246001728	RFID Printers	3
+1090246001729	ID Card Printers	3
+1090246001730	Auto ID Printer Service Parts	3
+1090247001731	Thermal Receipt Printers	3
+1090247001732	Impact Receipt Printers	3
+1090247001733	Inkjet Receipt Printers	3
+1090247001734	Hybrid Printers	3
+1090247001735	Mobile POS Printers	3
+1090247001736	POS Printer Service Parts	3
+1090248001222	Cash Registers	3
+1090248001737	Touch Screen POS Terminals	3
+1090248001738	Standalone POS Computer Terminals	3
+1090248001739	POS Ordering Systems	3
+1090248001740	Kiosk POS Terminals	3
+1090249001741	Cash Drawers & Trays	3
+1090249001742	POS Keyboards	3
+1090249001743	POS Touchscreens	3
+1090249001744	Magnetic Stripe Readers	3
+1090249001745	Check Readers	3
+1090249001746	Pole Displays & Specialty Displays	3
+1090249001747	POS Scales	3
+1090249001748	Pin Pad Terminals	3
+1090249001749	Debit/Credit Card Authorization Terminal	3
+1090249001750	Signature Capture Terminals	3
+1090249001751	Smartcard Readers	3
+1090249002127	Authorization Terminals	3
+1090250001752	AIDC/POS Application Development Softwar	3
+1090250001753	AIDC/POS Barcode Label Software	3
+1090250001754	AIDC/POS Device Management Software	3
+1090250001755	AIDC/POS Data Capture Application Softwa	3
+1090250001756	AIDC/POS Miscellaneous Software	3
+1090250001757	AIDC/POS Terminal Emulation Software	3
+1090250001758	AIDC/POS WRLS Network Management Tools	3
+1090250001759	Retail Software	3
+1090250002128	Hospitality Software	3
+1090251001760	Epson	3
+1090251001761	Handheld Products	3
+1090251001762	Hewlett Packard	3
+1090251001763	Oneil	3
+1090251001764	Pioneer	3
+1090251001765	PSC	3
+1090251001766	Symbol	3
+1090251001767	Ultimate	3
+1090251001768	Unitech	3
+1090251001769	Zebra	3
+1090251001770	Miscellaneous Service Fees	3
+1090252001771	POS Solutions	3
+1090252001772	Asset Tracking Solutions	3
+1090252001773	Inventory Control Solutions	3
+1090252001774	Time & Attendance Solutions	3
+1090252001775	Labeling Solutions	3
+1090252001776	Healthcare Bundles	3
+1090252001777	Photo ID Bundles	3
+1090252001778	Wireless Infrastructure Bundles	3
+1090253001779	AIDC Mobile Terminal Accessories	3
+1090253001780	AIDC Wireless Infrastructure Accessories	3
+1090253001781	RFID Accessories	3
+1090254001782	Barcode Scanner Accessories	3
+1090254001783	ID Printer Accessories	3
+1090255001784	POS Printer Accessories	3
+1090255001785	POS Terminal Accessories	3
+1090255001786	POS Peripheral Accessories	3
+1090255002129	Kiosk Accessories	3
+1090255002130	Barcode Printer Accessories	3
+1090255002131	Barcode Printer Supplies	3
+1090256001787	Common POS/AIDC Accessories	3
+1090257001788	ID Printer Supplies	3
+1090257001789	POS Printer Supplies	3
+1098001002004	Action Figures	3
+1098001002005	Building Toys	3
+1098001002006	Educational Toys	3
+1098001002007	Electronic Toys	3
+1098002002008	Paints	3
+1098002002009	Stationary	3
+1098002002010	Crayon & Pencil	3
+1098002002011	Pen & Marker	3
+1098003002012	Percussion	3
+1098003002013	String	3
+1098003002014	Keyboards	3
+1098003002015	Horns	3
+1099258001790	Back & Foot Rests	3
+1099258001791	Calculators	3
+1099258001792	Copy Holders	3
+1099258001793	CPU Stands & Enclosures	3
+1099258001794	Desk Organizers	3
+1099258001795	Dust Covers	3
+1099258001796	Keyboard Accessories	3
+1099258001797	Mouse & Keyboard Pads & Rests	3
+1099258001798	Travel Lights & Fans	3
+1099259001799	Auto/Marine Amps; Crossovers; Equalizers	3
+1099259001800	Auto/Marine Receivers	3
+1099259001801	Auto/Marine Speakers & Subwoofers	3
+1099259001802	Vehicle Protecion & Convenience Devices	3
+1099259001803	Auto/Marine Accessories	3
+1099259002095	Vehicle Monitors	3
+1099260001804	Notebook Accessory Kits	3
+1099260001805	Notebook Carrying Cases & Carts	3
+1099260001806	Notebook Docking Options & Stands	3
+1099260001807	Notebook Expansion Bays & Options	3
+1099260001808	Notebook Power Options	3
+1099260001809	Tablet PC Accessories	3
+1099261001810	VHF Radios & Communications Accessories	3
+1099262001811	PDA Accessory Kits	3
+1099262001812	PDA Carrying Cases	3
+1099262001813	PDA Expansion Cards	3
+1099262001814	PDA Power Options	3
+1099262001815	PDA Screen Protectors	3
+1099262001816	PDA Stylus	3
+1099262001817	PDA Sync Devices & Cables	3
+1099262001818	GPS Accessories	3
+1099263001819	Converter Boxes	3
+1099263001820	Display Accessories	3
+1099263001821	LCD Display Carrying Cases	3
+1099263001822	Monitor Anti-Glare Filters	3
+1099263001823	Monitor Overlays	3
+1099263001824	Monitor/Lifts/Arms/Stands/Mounts/Bezels	3
+1099263001825	Remote Controls	3
+1099263001826	TV Accessories	3
+1099264001827	Data Transfer Kits	3
+1099264001828	Drive Controller Components	3
+1099264001829	Drive Enclosure Components	3
+1099264001830	Drive Interface Converters	3
+1099264001831	Drive Mounting Hardware	3
+1099264001832	Jewel Cases; Labeling & Inserts	3
+1099264001833	Media Storage Products	3
+1099264001834	Optical Device Components	3
+1099264001835	Portable Drive Carrying Cases	3
+1099264001836	Space Management Organizers	3
+1099264001837	Storage Power Options	3
+1099264001838	Tape Array Components	3
+1099264001839	Tape Library Components	3
+1099264001840	Transit Shipping Cases	3
+1099265001841	Plotter Spindles & Roll Feeders	3
+1099265001842	Print Servers & Interface Cards	3
+1099265001843	Printer Carrying Cases & Covers	3
+1099265001844	Printer Duplex Units	3
+1099265001845	Printer Hard Drives	3
+1099265001846	Printer Management Software	3
+1099265001847	Printer Memory	3
+1099265001848	Printer Multifunction/Fax Options	3
+1099265001849	Printer Power Options	3
+1099265001850	Printer Sharing/Extender Devices	3
+1099265001851	Printer Trays/Drawers/Env Feeders	3
+1099265001852	Printer Upgrades	3
+1099265001853	Printer User Manuals	3
+1099265001854	Printer/Plotter Emulation/Font Upgr	3
+1099265001855	Printer/Plotter Furniture	3
+1099265001856	Printer/Plotter Output Options	3
+1099265001857	Push/Pull Tractors	3
+1099266001858	Projector Screen Accessories	3
+1099266001859	Document Cameras	3
+1099266001860	Projector Cables	3
+1099266001861	Projector Cases & Carts	3
+1099266001862	Projector Lens	3
+1099266001863	Projector Mounting	3
+1099266001864	Projector Network Adapters & Software	3
+1099266001865	Remote Controls/Pointers	3
+1099266001866	Replacement Lamps & Filters	3
+1099267001867	Camera Accessory Kits	3
+1099267001868	Camera Cables	3
+1099267001869	Camera Cases	3
+1099267001870	Camera Docks/ Cradles	3
+1099267001871	Camera Flash/Lights	3
+1099267001872	Camera Lens/Adapters/Filters/Hoods	3
+1099267001873	Camera Power Options	3
+1099267001874	Camera Remote Controls	3
+1099267001875	Camera Tripods & Monopods	3
+1099268001876	Document/Network Scan Servers	3
+1099268001877	Scanner ADF Auto Document Feeders	3
+1099268001878	Scanner Carrying Cases	3
+1099268001879	Scanner Consumables; AC Adapters & Kits	3
+1099268001880	Scanner Film Holders/Feeders	3
+1099268001881	Scanner Imprinters & Endorsers	3
+1099268001882	Scanner Interface Cards	3
+1099268001883	Scanner Slide Adapters	3
+1099269001884	Headset Accessories & Cables	3
+1099269001885	Other Phone Accessories & Cables	3
+1099269001886	Phone Amplifiers/Antennas	3
+1099269001887	Phone Cases	3
+1099269001888	Phone Connection Kits	3
+1099269001889	Phone Faceplates	3
+1099269001890	Phone Hands Free Sets	3
+1099269001891	Phone Handsets	3
+1099269001892	Phone Headsets	3
+1099269001893	Phone Noise Suppressors	3
+1099269001894	Phone Power Accessories	3
+1099269001895	Phone Reference Materials	3
+1099269001896	Phone Stands/Mounting	3
+1099270001897	Game Console Accessories	3
+1099270001898	Game Organizers & Cases	3
+1099270001899	Other Video Game Accessories	3
+1099270001900	Video Game Cables & Adapters	3
+1099270001901	Video Game Controllers	3
+1099270001902	Video Game Expansion Products	3
+1099270001903	Video Game Memory Cards & Units	3
+1099270001904	Video Game Surge Protectors	3
+1099271001905	AV Adapters	3
+1099271001906	Audio Cassette Copiers	3
+1099271001907	Digital A/V Device Accessories	3
+1099271001908	PC Headset/Microphone Combo	3
+1099271001909	PC Headsets/Headphones	3
+1099271001910	PC Microphones	3
+1099271001911	Speakers; Subwoofers & Accessories	3
+1099271001912	Attachable Display Speakers	3
+1099271001913	A/V Remote Controls	3
+1099271001914	A/V Care & Cleaning Supplies	3
+1099271001915	Home Stereo/Theater Accessories	3
+1099271001916	Home Theater Furniture	3
+1099271002096	iPod/MP3 Player Docks	3
+1099272001917	Light Swithes	3
+1099272001918	Home Automation Modules	3
+1099272001919	Home Automation Accessories	3
+1099272001920	Home Automation System Controllers	3
+1099272001921	Home Automation Sensors	3
