@@ -180,4 +180,17 @@ class ProductController extends Controller
     {
         return IngramProduct::where('vendor_name', 'regex', new \MongoRegex("/^$name$/i"))->get();
     }
+
+    public function migrationProductImages()
+    {
+          $currentDir = \FTP::connection()->currentDir();
+          echo $currentDir;
+
+        \FTP::connection()->downloadFile("10_1434296_Front.jpg", config('app.product_images_path'));
+      
+        // dd($listin)
+        // foreach ($listing as $key => $value) {
+        //     # code...
+        // }
+    }
 }

@@ -123,6 +123,7 @@ return [
 
     'product_csv_path' => base_path() . '/resources/data/STDPRICE_FULL.csv', //Add .env variable
     'category_csv_path' => base_path() . '/resources/data/PG.csv', //Add .env variable
+    'product_images_path' => base_path() . '/public/images/products', //Add .env variable
 
     'providers' => [
 
@@ -162,8 +163,8 @@ return [
         ClevAppBcRestApi\Providers\EventServiceProvider::class,
         ClevAppBcRestApi\Providers\RouteServiceProvider::class,
 
-        Laralib\L5scaffold\GeneratorsServiceProvider::class
-
+        Laralib\L5scaffold\GeneratorsServiceProvider::class,
+        Anchu\Ftp\FtpServiceProvider::class,
     ],
 
     /*

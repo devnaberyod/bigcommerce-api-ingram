@@ -4,9 +4,105 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b5d7de7eef0e20626c52c3cd3ccb1507",
-    "content-hash": "24b79affbd5964dc7566557f892a4f86",
+    "hash": "03b9f7ad2eeb3f9dfea4859f77eb0c26",
+    "content-hash": "9f53f73c1cc3269a794bdc1cc216fd72",
     "packages": [
+        {
+            "name": "anchu/ftp",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/harishanchu/Laravel-FTP.git",
+                "reference": "e0fec2dae79123a7d993afcafa174eb88b45146e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/harishanchu/Laravel-FTP/zipball/e0fec2dae79123a7d993afcafa174eb88b45146e",
+                "reference": "e0fec2dae79123a7d993afcafa174eb88b45146e",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.x",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Anchu\\Ftp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Harish Anchu",
+                    "email": "harishanchu@gmail.com"
+                }
+            ],
+            "description": "A simple Laravel 4/5 ftp service provider",
+            "keywords": [
+                "L4",
+                "ftp",
+                "l5",
+                "laravel",
+                "service provider"
+            ],
+            "time": "2015-05-16 18:29:29"
+        },
+        {
+            "name": "bigcommerce/api",
+            "version": "3.03",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bigcommerce/bigcommerce-api-php.git",
+                "reference": "2aac2526092d97d948da508d692b2f2b57c68600"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bigcommerce/bigcommerce-api-php/zipball/2aac2526092d97d948da508d692b2f2b57c68600",
+                "reference": "2aac2526092d97d948da508d692b2f2b57c68600",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "codeless/jugglecode": "1.0",
+                "phpunit/phpunit": "4.5.*",
+                "satooshi/php-coveralls": "1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bigcommerce": "src/"
+                },
+                "psr-4": {
+                    "Bigcommerce\\Test\\": "test/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Bigcommerce",
+                    "homepage": "http://www.bigcommerce.com"
+                }
+            ],
+            "description": "Enables PHP applications to communicate with the Bigcommerce API.",
+            "homepage": "http://developer.bigcommerce.com",
+            "keywords": [
+                "api",
+                "business",
+                "ecommerce",
+                "http",
+                "rest"
+            ],
+            "time": "2016-04-29 17:26:53"
+        },
         {
             "name": "classpreloader/classpreloader",
             "version": "3.0.0",
@@ -496,16 +592,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.21",
+            "version": "1.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "35a83cf67d80d7040f306c77b0a84b9fbcc4fbfb"
+                "reference": "bd73a91703969a2d20ab4bfbf971d6c2cbe36612"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/35a83cf67d80d7040f306c77b0a84b9fbcc4fbfb",
-                "reference": "35a83cf67d80d7040f306c77b0a84b9fbcc4fbfb",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/bd73a91703969a2d20ab4bfbf971d6c2cbe36612",
+                "reference": "bd73a91703969a2d20ab4bfbf971d6c2cbe36612",
                 "shasum": ""
             },
             "require": {
@@ -575,7 +671,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2016-04-22 10:56:25"
+            "time": "2016-04-28 06:53:12"
         },
         {
             "name": "monolog/monolog",
@@ -1105,16 +1201,16 @@
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.1",
+            "version": "v5.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421"
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/0697e6aa65c83edf97bb0f23d8763f94e3f11421",
-                "reference": "0697e6aa65c83edf97bb0f23d8763f94e3f11421",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/d8db871a54619458a805229a057ea2af33c753e8",
+                "reference": "d8db871a54619458a805229a057ea2af33c753e8",
                 "shasum": ""
             },
             "require": {
@@ -1154,7 +1250,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2015-06-06 14:19:39"
+            "time": "2016-05-01 08:45:47"
         },
         {
             "name": "symfony/console",
@@ -2106,33 +2202,29 @@
         },
         {
             "name": "fzaninotto/faker",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d"
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d0190b156bcca848d401fb80f31f504f37141c8d",
-                "reference": "d0190b156bcca848d401fb80f31f504f37141c8d",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/44f9a286a04b80c76a4e5fb7aad8bb539b920123",
+                "reference": "44f9a286a04b80c76a4e5fb7aad8bb539b920123",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3|^7.0"
             },
             "require-dev": {
+                "ext-intl": "*",
                 "phpunit/phpunit": "~4.0",
                 "squizlabs/php_codesniffer": "~1.5"
             },
-            "suggest": {
-                "ext-intl": "*"
-            },
             "type": "library",
             "extra": {
-                "branch-alias": {
-                    "dev-master": "1.5.x-dev"
-                }
+                "branch-alias": []
             },
             "autoload": {
                 "psr-4": {
@@ -2154,7 +2246,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-05-29 06:29:14"
+            "time": "2016-04-29 12:21:54"
         },
         {
             "name": "hamcrest/hamcrest-php",

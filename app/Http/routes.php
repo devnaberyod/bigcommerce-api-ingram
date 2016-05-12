@@ -15,14 +15,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['prefix' => 'api/v1', 'middleware' => 'auth.basic.once'], function () {
-	Route::resource('product', 'ProductController');
+Route::group(['prefix' => 'bc/v1'], function () {
+	Route::get('products/review', 'Bigcommerce\ProductController@reviews');
+	Route::resource('product', 'Bigcommerce\ProductController');
 });
 
+//TODO: Make Migration Controller
+Route::get('/im/migration/{isProduct?}', 'IngramMicro\ProductController@migration');
+Route::get('/im/migration-product-images', 'IngramMicro\ProductController@migrationProductImages');
 
-Route::get('migration/{isProduct?}', 'IngramMicro\ProductController@migration');
-
-Route::group(['prefix' => 'im'], function () {
+Route::group(['prefix' => 'im/v1'], function () {
 
 	Route::get('product/vendor/{name}', 'IngramMicro\ProductController@vendor');
 

@@ -10,15 +10,17 @@ class ProductController extends BaseApiController
     	$this->setDataProvider('test');
     }
 
-    function index()
-    {
+    function index() {
     	$data = $this->dataProvider;
     	
     	return $data;
     }
 
-    function store()
-    {
+    function store() {
     	return array(1);
+    }
+
+    function reviews() {
+        
     }
 }

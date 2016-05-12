@@ -8,7 +8,9 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "jenssegers/mongodb": "2.3",
-        "tymon/jwt-auth": "0.5.*"
+        "tymon/jwt-auth": "0.5.*",
+        "anchu/ftp": "~2.0",
+        "bigcommerce/api": "^3.03"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
