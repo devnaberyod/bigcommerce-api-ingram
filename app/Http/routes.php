@@ -16,7 +16,7 @@ Route::get('/', function () {
 });
 
 Route::group(['prefix' => 'bc/v1'], function () {
-	Route::get('products/review', 'Bigcommerce\ProductController@reviews');
+	Route::get('products/reviews', 'Bigcommerce\ProductController@reviews');
 	Route::resource('product', 'Bigcommerce\ProductController');
 });
 

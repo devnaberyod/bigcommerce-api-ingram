@@ -13,11 +13,11 @@ class ProductController extends Controller
 
   public function __construct(Request $request)
   {
-  	$origin = 'https://store-74ofb.mybigcommerce.com'; //Get from origin
+  	$origin = 'http://www.cravecoffee.com.au'; //Get from origin
 
-  	$client = ClientCredential::where('base_url', $origin)->firstOrFail();
+  	$client = ClientCredential::where('base_url_origin', $origin)->firstOrFail();
   	Bigcommerce::configure(array(
-  	    'store_url' => 'https://store-74ofb.mybigcommerce.com',
+  	    'store_url' => $client->api_path,
   	    'username'  => $client->username,
   	    'api_key'   => $client->api_key
   	));
@@ -105,8 +105,11 @@ class ProductController extends Controller
   public function reviews()
   {
   	$products = Bigcommerce::getProducts();
-  	$productReviews = [];
 
+  	if (!$products) return 'Store has no products.';
+
+  	$productReviews = [];
+  	
   	foreach ($products as $key => $value) {
   		$id = $value->id;
   		$reviews = Bigcommerce::getProductReviews($id);
@@ -121,7 +124,8 @@ class ProductController extends Controller
 				'title' => $review->title, 
 				'review' => $review->review, 
 				'rating' => $review->rating, 
-				'status' => $review->status
+				'status' => $review->status,
+				'date_created' => $review->date_created
 			);
   		}
   	
