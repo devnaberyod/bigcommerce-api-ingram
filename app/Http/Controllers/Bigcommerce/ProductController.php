@@ -13,9 +13,14 @@ class ProductController extends Controller
 
   public function __construct(Request $request)
   {
-  	$origin = 'http://www.cravecoffee.com.au'; //Get from origin
+  	$origin = $request->headers->get('Origin');
+
+  	if (!$origin) return 'Invalid client origin.';
 
   	$client = ClientCredential::where('base_url_origin', $origin)->firstOrFail();
+
+  	if (!$client) return 'Client Origin not recognized.';
+
   	Bigcommerce::configure(array(
   	    'store_url' => $client->api_path,
   	    'username'  => $client->username,
@@ -109,7 +114,7 @@ class ProductController extends Controller
   	if (!$products) return 'Store has no products.';
 
   	$productReviews = [];
-  	
+
   	foreach ($products as $key => $value) {
   		$id = $value->id;
   		$reviews = Bigcommerce::getProductReviews($id);
