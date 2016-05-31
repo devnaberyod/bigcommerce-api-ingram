@@ -15,6 +15,22 @@ Route::get('/', function () {
     return view('front/home');
 });
 
+Route::get('/dashboard', function () {
+    return view('front/dashboard');
+});
+
+Route::get('/store-management', function () {
+    return view('front/store_management');
+});
+
+Route::get('/settings', function () {
+    return view('front/settings');
+});
+
+Route::get('/account', function () {
+    return view('front/account');
+});
+
 Route::group(['prefix' => 'bc/v1'], function () {
 	Route::get('products/reviews', 'Bigcommerce\ProductController@reviews');
 	Route::resource('product', 'Bigcommerce\ProductController');
@@ -27,6 +43,7 @@ Route::get('/im/v1/migration-product-images', 'IngramMicro\ProductController@mig
 Route::group(['prefix' => 'im/v1'], function () {
 
 	Route::get('product/vendor/{name}', 'IngramMicro\ProductController@vendor');
+	Route::get('product/count', 'IngramMicro\ProductController@count');
 
 	Route::resource('product', 'IngramMicro\ProductController');
 	

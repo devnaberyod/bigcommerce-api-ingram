@@ -1,0 +1,160 @@
+body {
+  background: url(/images/im-headerbg.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto';
+}
+a,
+a:visited {
+  color: #2a94fd;
+  text-decoration: none;
+}
+a,
+input,
+button,
+textarea {
+  transition: all 0.4s;
+}
+button,
+input[type=submit] {
+  background-color: #2a94fd;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  padding: 15px 12px;
+  text-align: center;
+  width: 100%;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+button.alt,
+input[type=submit].alt {
+  background: transparent;
+  border: 1px solid #fff;
+}
+button:hover,
+input[type=submit]:hover {
+  background: #1E7BD6;
+}
+.alt:hover {
+  background: #2a94fd;
+  border-color: #2a94fd;
+}
+input[type=text],
+textarea {
+  background-color: transparent;
+  color: #fff;
+  padding: 15px 12px;
+  border: 1px solid #fff;
+  width: 100%;
+  outline: none;
+  font-weight: 100;
+}
+input[type=text]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #DBDBDB;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+input[type=text]:-moz-placeholder,
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #DBDBDB;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+input[type=text]::-moz-placeholder,
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #DBDBDB;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+input[type=text]:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #DBDBDB;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.form-field {
+  width: 50%;
+  padding: 0 0 20px 20px;
+  float: left;
+}
+.form-field.wide {
+  width: 100%!important;
+}
+.home-wrapper {
+  min-height: 600px;
+  color: #fff;
+  padding-bottom: 70px;
+}
+.home-wrapper header {
+  padding: 20px 0;
+}
+.home-wrapper header button {
+  width: 120px;
+  margin: 33px 0;
+}
+.home-wrapper strong {
+  color: #2a94fd;
+}
+.home-wrapper aside {
+  max-width: 59%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 50px;
+}
+.home-wrapper aside h3 {
+  font-weight: 100;
+}
+.home-wrapper aside strong {
+  font-weight: 500;
+}
+.home-wrapper .form-container {
+  display: inline-block;
+  max-width: 40.66%;
+  vertical-align: middle;
+  padding: 30px 30px 20px 10px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.home-wrapper .form-container h3 {
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.home-wrapper .form-container .sign-up-btn {
+  cursor: pointer;
+}
+.logo {
+  display: inline-block;
+}
+.logo img {
+  width: 160px;
+}
+.login,
+.logout {
+  float: right;
+}
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+}
+
+/*# sourceMappingURL=home.css.map */

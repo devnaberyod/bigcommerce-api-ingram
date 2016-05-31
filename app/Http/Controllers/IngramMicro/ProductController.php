@@ -20,7 +20,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return IngramProduct::all();
+        return IngramProduct::skip(1)->take(30)->get();
     }
     /**
      * Show the form for creating a new resource.
@@ -90,6 +90,10 @@ class ProductController extends Controller
         //
     }
 
+    public function count()
+    {
+        return IngramProduct::count();
+    }
     /**
      * Ingram Resources Migration
      * @param boolean $isProduct

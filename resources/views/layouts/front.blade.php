@@ -2,9 +2,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ingram Micro -  @yield('title')</title>
-	<link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}" />
-	<link rel="stylesheet" href="{{ URL::asset('css/style.css') }}" />
-	<link rel="stylesheet" href="{{ URL::asset('css/fonts.css') }}" />
+	<link rel="stylesheet" href="{{ elixir("build/css/vendor.css") }}">
+	<link rel="stylesheet" href="{{ elixir("css/home.css") }}">
 </head>
 <body>
 	<div class="home-wrapper">
@@ -83,8 +82,7 @@
 			</div>
 		</footer>
 	</div>
-	<script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('js/homepage.js') }}"></script>
+	<script src="{{ elixir("build/js/vendor.js") }}"></script>
+	<script src="{{ elixir("build/js/common.js") }}"></script>
 </body>
 </html>
