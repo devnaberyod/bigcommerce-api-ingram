@@ -49,5 +49,6 @@ class Kernel extends HttpKernel
         'can' => \Illuminate\Foundation\Http\Middleware\Authorize::class,
         'guest' => \ClevAppBcRestApi\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
+        'cors' => \ClevAppBcRestApi\Http\Middleware\CorsMiddleware::class,
     ];
 }

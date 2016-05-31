@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('front/home');
 });
 
 Route::group(['prefix' => 'bc/v1'], function () {
@@ -21,8 +21,8 @@ Route::group(['prefix' => 'bc/v1'], function () {
 });
 
 //TODO: Make Migration Controller
-Route::get('/im/migration/{isProduct?}', 'IngramMicro\ProductController@migration');
-Route::get('/im/migration-product-images', 'IngramMicro\ProductController@migrationProductImages');
+Route::get('/im/v1/migration/{isProduct?}', 'IngramMicro\ProductController@migration');
+Route::get('/im/v1/migration-product-images', 'IngramMicro\ProductController@migrationProductImages');
 
 Route::group(['prefix' => 'im/v1'], function () {
 
@@ -33,6 +33,10 @@ Route::group(['prefix' => 'im/v1'], function () {
 	Route::get('category/{id}/products', 'IngramMicro\CategoryController@categoryProducts');
 
 	Route::resource('category', 'IngramMicro\CategoryController');
+
+	Route::resource('products.images', 'IngramMicro\ProductImageController', [
+		'parameters' => 'singular'
+	]);
 
 });
 

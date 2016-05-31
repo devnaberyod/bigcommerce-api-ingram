@@ -14,7 +14,7 @@ class ProductController extends Controller
   public function __construct(Request $request)
   {
   	$origin = $request->headers->get('Origin');
-
+  	echo $origin; exit;
   	if (!$origin) return 'Invalid client origin.';
 
   	$client = ClientCredential::where('base_url_origin', $origin)->firstOrFail();
@@ -109,6 +109,7 @@ class ProductController extends Controller
   */
   public function reviews()
   {
+
   	$products = Bigcommerce::getProducts();
 
   	if (!$products) return 'Store has no products.';

@@ -121,9 +121,11 @@ return [
     |
     */
 
-    'product_csv_path' => base_path() . '/resources/data/STDPRICE_FULL.csv', //Add .env variable
-    'category_csv_path' => base_path() . '/resources/data/PG.csv', //Add .env variable
-    'product_images_path' => base_path() . '/public/images/products', //Add .env variable
+    /*TODO: Add these to .env*/
+    'product_csv_path' => base_path() . '/resources/data/STDPRICE_FULL.csv', 
+    'product_images_csv_path' => base_path() . '/resources/data/product_images.csv', 
+    'category_csv_path' => base_path() . '/resources/data/PG.csv', 
+    'product_images_path' => base_path() . '/public/images/products',
 
     'providers' => [
 

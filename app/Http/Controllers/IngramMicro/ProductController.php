@@ -9,6 +9,7 @@ use ClevAppBcRestApi\Http\Controllers\Controller;
 
 use ClevAppBcRestApi\IngramProduct;
 use ClevAppBcRestApi\IngramCategory;
+use ClevAppBcRestApi\IngramProductImage;
 
 class ProductController extends Controller
 {
@@ -19,9 +20,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return IngramProduct::orderBy('vendor_name')->take(5)->get();
+        return IngramProduct::all();
     }
-
     /**
      * Show the form for creating a new resource.
      *
@@ -51,7 +51,9 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        return IngramProduct::where('part_number', '=', $id)->take(10)->get();
+        $product = IngramProduct::where('part_number', '=', $id)->take(10)->get();
+
+        return $product->image;
     }
 
     /**
@@ -97,10 +99,38 @@ class ProductController extends Controller
     public function migration($isProduct = false)
     {
         ini_set('max_execution_time', 120);
-       
+        
+        if (($handle = fopen(config('app.product_images_csv_path'), "r")) !== FALSE) {
+                  
+            $row = 1;
+
+            while (($data = fgetcsv($handle, 0, ",")) !== FALSE) {
+
+                if($row == 1) { $row++; continue; }
+                
+                $row++;
+              
+                $productImage = new IngramProductImage;
+
+                $productImage->part_number = $data[0];
+                $productImage->image_front = $data[1];
+                $productImage->image_rear = $data[2];
+                $productImage->image_top = $data[3];
+                $productImage->image_left = $data[4];
+                $productImage->image_right = $data[5];
+                $productImage->default_id = $data[6];
+                $productImage->video = $data[7];
+                $productImage->brochure = $data[8];
+               
+                $productImage->save();
+            }
+
+            fclose($handle);
+        }
+
         //Categories Migration
         if (($handle = fopen(config('app.category_csv_path'), "r")) !== FALSE) {
-            
+                  
             $row = 1;
 
             while (($data = fgetcsv($handle, 0, "\t")) !== FALSE) {
@@ -110,7 +140,7 @@ class ProductController extends Controller
               
                 $category = new IngramCategory;
 
-                $category->category_id = $data[0];
+                $category->category_id = substr($data[0], -4);
                 $category->description = $data[1];
                 $category->level = $data[2];
                
@@ -132,16 +162,19 @@ class ProductController extends Controller
                 if($row == 1) { $row++; continue; }
                 
                 $row++;
-          
-                $prod = new IngramProduct;
 
-                $prod->part_number = $data[0];
+                $partNumber = substr($data[0], 11);
+                // $prodImage =  IngramProductImage::where('part_number', '=', $partNumber)->get();
+                $prodImage =  IngramProductImage::raw()->findOne(['part_number' => $partNumber]);
+
+                $prod = new IngramProduct;
+                $prod->part_number = $partNumber;
                 $prod->description = $data[1];
                 $prod->vendor_name = $data[7];
                 $prod->weight = $data[9];
                 $prod->volume = $data[10];
                 $prod->unit = $data[11];
-                $prod->category_id = $data[12];
+                $prod->category_id = substr($data[12], -4);
                 $prod->customer_price = $data[13];
                 $prod->retail_price = $data[14];
                 $prod->available_qty = $data[16];
@@ -165,6 +198,7 @@ class ProductController extends Controller
                 $prod->company_code_currency = $data[67];
                 $prod->creation_reason_type = $data[71];
                 $prod->plan_avaiblale_qty = $data[73];
+                $prod->image_front = $prodImage ? $prodImage['image_front'] : null;
                 $prod->deleted_at = '';
                 
                 $prod->save();
@@ -173,7 +207,7 @@ class ProductController extends Controller
             fclose($handle);
         }
 
-        return 'Migration completed.';
+        return "Done";
     }
 
     public function vendor($name)
