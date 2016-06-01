@@ -9,9 +9,7 @@
  			<label for="">Select Brand:</label>
  			<select name="" id="">
  				<option>Select One</option>
- 				<option>Acer</option>
- 				<option>Dell</option>
- 				<option>Samsung</option>
+ 				<option ng-repeat="brand in product.brands" ng-if="brand">[[brand]]</option>
  			</select>
  			<label for="">Filter:</label>
  			<select name="" id="">
@@ -45,7 +43,7 @@
  							<span class="checkbox"></span>
  						</td>
 						<td>
-							<div class="img-wrapper" ng-init="imgsrc=prod.image_front">
+							<div class="img-wrapper">
 								<img ng-if="!prod.image_front" src="{{ URL::asset('images/thumbnail-default.jpg') }}" alt="">
 								<img ng-if="prod.image_front" src="https://s3-ap-southeast-2.amazonaws.com/ingram-micro/[[prod.image_front]]" alt="">
 							</div>

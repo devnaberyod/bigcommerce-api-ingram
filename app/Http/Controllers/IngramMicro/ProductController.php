@@ -94,6 +94,11 @@ class ProductController extends Controller
     {
         return IngramProduct::count();
     }
+
+    public function brand()
+    {
+        return response()->json(IngramProduct::where('vendor_name', "!=", "")->distinct('vendor_name')->get());
+    }
     /**
      * Ingram Resources Migration
      * @param boolean $isProduct

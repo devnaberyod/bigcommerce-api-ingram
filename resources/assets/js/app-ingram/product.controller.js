@@ -9,12 +9,15 @@ function ProductController(Restangular) {
 	var base = Restangular.all('product');
 
 	vm.all = {};
+	vm.brands = {};
 	vm.count = Restangular.all('product').customGET("count");
 	
-
+	base.customGET("brands").then(function(each) {
+		vm.brands = each;
+	});
+	
 	base.getList().then(function(products) {
 	 	vm.all = products;
-	 	console.log("count:", vm.count.$$state);
 	});
 	
 	return vm;

@@ -43,6 +43,7 @@ Route::get('/im/v1/migration-product-images', 'IngramMicro\ProductController@mig
 Route::group(['prefix' => 'im/v1'], function () {
 
 	Route::get('product/vendor/{name}', 'IngramMicro\ProductController@vendor');
+	Route::get('product/brands', 'IngramMicro\ProductController@brand');
 	Route::get('product/count', 'IngramMicro\ProductController@count');
 
 	Route::resource('product', 'IngramMicro\ProductController');
@@ -60,6 +61,7 @@ Route::group(['prefix' => 'im/v1'], function () {
 // Route::auth();
 
 Route::get('/home', 'HomeController@index');
+Route::get('/login', 'HomeController@index');
 
 Route::group(['prefix' => 'admin'], function () {
 	Route::resource("tweets","TweetController");
