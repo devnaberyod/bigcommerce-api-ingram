@@ -56,6 +56,7 @@ elixir(function(mix) {
     mix.styles([
         "fonts.css",
         "bootstrap.min.css",
+        "ionicons.min.css",
     ], 'public/build/css/vendor.css');
 });
 

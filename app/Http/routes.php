@@ -57,7 +57,7 @@ Route::group(['prefix' => 'im/v1'], function () {
 
 });
 
-Route::auth();
+// Route::auth();
 
 Route::get('/home', 'HomeController@index');
 

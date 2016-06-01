@@ -25,13 +25,18 @@
  			<table>
  				<thead>
  					<tr>
- 						<th></th>
- 						<th>Name</th>
- 						<th>Brand</th>
- 						<th>Retail Price</th>
- 						<th>Available Stock</th>
- 						<th>Description</th>
- 					</tr>
+						<th>
+							<input type="checkbox" class="hidden" />
+							<span class="checkbox"></span>
+						</th>
+						<th>Image</th>
+						<th>Name</th>
+						<th>Part no.</th>
+						<th>Brand</th>
+						<th>Price</th>
+						<th>Available Stock</th>
+						<th>Description</th>
+					</tr>
  				</thead>
  				<tbody>
  					<tr ng-repeat="prod in product.all">
@@ -39,7 +44,14 @@
  							<input type="checkbox" data-id="prod._id" class="hidden" checked/>
  							<span class="checkbox"></span>
  						</td>
- 						<td ng-bind="prod.description"></td>
+						<td>
+							<div class="img-wrapper" ng-init="imgsrc=prod.image_front">
+								<img ng-if="!prod.image_front" src="{{ URL::asset('images/thumbnail-default.jpg') }}" alt="">
+								<img ng-if="prod.image_front" src="https://s3-ap-southeast-2.amazonaws.com/ingram-micro/[[prod.image_front]]" alt="">
+							</div>
+						</td>
+						<td ng-bind="prod.description"></td>
+						<td ng-bind="prod.part_number"></td>
  						<td ng-bind="prod.vendor_name"></td>
  						<td ng-bind="prod.retail_price"></td>
  						<td ng-bind="prod.available_qty"></td>

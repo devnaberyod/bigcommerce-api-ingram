@@ -29,6 +29,8 @@ function debug($compile) {
 	   }
 }
 
-function config(RestangularProvider) {
+function config(RestangularProvider, $interpolateProvider) {
 	RestangularProvider.setBaseUrl('/im/v1');
+	$interpolateProvider.startSymbol('[[');
+    $interpolateProvider.endSymbol(']]');
 }

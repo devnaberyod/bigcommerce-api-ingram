@@ -1,3 +1,6 @@
+@blue 		: #2a94fd;
+@black  	: #171717;
+
 body{
 	margin: 0;
 	padding: 0;
@@ -15,7 +18,7 @@ a:focus{
 
 // Helpers
 
-.default-btn {
+.default-btn{
 	float: right;
 	color: #FFF;
 	padding: 20px;
@@ -27,7 +30,7 @@ a:focus{
 	background: #2a94fd;
 	transition: .3s all;
 
-	&:hover {
+	&:hover{
 		background-color: rgba(42,118,253,1);
 		color: #FFF;
 	}
@@ -40,13 +43,18 @@ a:focus{
 	left: 0;
 	top: 0;
 	bottom: 0;
-	background: #FFF;
-	width: 100px;
+	width: 150px;
 	z-index: 100;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#005ed1+0,2a94fd+100 */
+	background: #005ed1; /* Old browsers */
+	background: -moz-linear-gradient(126deg, #2a94fd 0%, #31AE8E 100%);
+	background: -webkit-linear-gradient(126deg, #2a94fd 0%, #31AE8E 100%);
+	background: linear-gradient(126deg, #2a94fd 0%, #31AE8E 100%);
+	
 
 	.profile{
-		background: #5F5F5F;
-		padding: 20px;
+		background: rgba(95, 95, 95,0.5);
+		padding: 45px 50px;
 	}
 
 	ul{
@@ -55,67 +63,45 @@ a:focus{
 
 		li{
 			text-align: center;
-			padding: 15px 0;
 			position: relative;
+			border-top: 1px solid transparent;
 
-			&.clicked {
-				
+			&.clicked{
+				border-top: 1px solid #fff;
+				border-bottom: 1px solid #fff;
 
-				&:after {
-					content: '';
-					background: #BCDCFD;
-					position: absolute;
-					left: 5px;
-					right: 0px;
-					top: 10px;
-					z-index: -1;
-					bottom: 10px;
-					border-radius: 5px 0 0 5px;
-				}
-
-				ul {
-					width: 200px;
-					border-right: 5px solid #2A76FD;
+				ul{
+					display: block;
 				}
 			}
 
 			a{
-				color: #5F5F5F;
+				color: #fff;
+			    padding: 30px 20px;
+    			display: block;
 
 				i{
 					display: block;
 					font-size: 40px;
+				    margin-bottom: 10px;
 				}
 			}
-
-			
 		}
 
-		ul {
-			position: absolute;
-			left: 100px;
-			background: #FFF;
+		ul{
 			border-right: 0 solid #2A76FD;
-			top: 10px;
-			min-height: 100px;
-			z-index: 0;
-			box-shadow: 0px -4px 10px -7px rgba(0,0,0,.3), 1px 4px 10px -7px rgba(0,0,0,.3);
 			padding: 10px 0;
-			width: 0;
 			overflow: hidden;
 			transition: .3s all;
+			display: none;
 
-			li {
+			li{
 				text-align: left;
 				padding: 0;
 
-				a {
+				a{
 					padding: 5px 20px;
 					display: block;
-
-					&:hover {
-						background-color: #BCDCFD;
-					}
 				}
 			}
 		}
@@ -125,32 +111,33 @@ a:focus{
 // Board
 
 .board{
-	margin-left: 100px;
+	margin-left: 150px;
+	padding: 42px 30px;
 
 	.board-header{
-	    background: #FFF;
 	    color: #000;
-	    border-left: 5px solid #2A94FD;
 	    position: relative;
 	    
-	    h2 {
+	    h2{
 	    	line-height: 83px;
 			margin: 0;
 			font-size: 22px;
-			padding-left: 25px;
+			font-weight: 400;
+			color: @blue;
 	    }
 
-	    .filters {
+	    .filters{
 	    	position: absolute;
 	    	right: 35px;
 	    	line-height: 83px;
 	    	top: 0;
 
-	    	label {
-	    		font-weight: 100;
+	    	label{
+	    		font-weight: 400;
+	    		color: @blue;
 	    	}
 
-	    	select {
+	    	select{
 				border: 1px solid #EFEFEF;
 				background: transparent;
 				border-radius: 0;
@@ -164,7 +151,6 @@ a:focus{
 	}
 
 	.main{
-		padding: 20px 25px;
 
 		.inner{
 			padding: 20px;
@@ -176,13 +162,36 @@ a:focus{
 
 table{
 	width: 100%;
+	font-size: 14px;
 	
 	thead{
 
 		tr{
 			th{
-				font-weight: 100;
+				font-weight: 400;
 				padding: 15px;
+
+				&:first-child{
+					width: 40px;
+				}
+
+				.checkbox{
+					display: block;
+					border: solid 1px #B5B5B5;
+					width: 25px;
+					height: 25px;
+					margin: 0 auto;
+					text-align: center;
+					cursor: pointer;
+
+				    &.checked:after{
+						content: '\f00c';
+						font-family: FontAwesome;
+						line-height: 25px;
+						text-align: center;
+						color: #5D9051;
+				    }
+				}
 			}
 		}
 	}
@@ -193,11 +202,11 @@ table{
 			border-top: solid 1px #EFEFEF;
 			transition: .2s all;
 
-			&:nth-child(even) {
+			&:nth-child(even){
 				background-color: #FEFEFE;
 			}
 
-			&:hover {
+			&:hover{
 				background-color: #BCDCFD;
 			}
 
@@ -205,11 +214,11 @@ table{
 				font-weight: 100;
 				padding: 15px;
 
-				&:first-child {
+				&:first-child{
 					width: 40px;
 				}
 				
-				.checkbox {
+				.checkbox{
 					display: block;
 					border: solid 1px #B5B5B5;
 					width: 25px;
@@ -218,7 +227,7 @@ table{
 					text-align: center;
 					cursor: pointer;
 
-				    &.checked:after {
+				    &.checked:after{
 						content: '\f00c';
 						font-family: FontAwesome;
 						line-height: 25px;
@@ -227,6 +236,17 @@ table{
 				    }
 				}
 			}
+		}
+
+		.img-wrapper{
+			width: 75px;
+	    	object-fit: cover;
+	        overflow: hidden;
+
+		    img{
+		    	height: 50px;
+		    	object-fit: cover;
+		    }
 		}
 	}
 }
