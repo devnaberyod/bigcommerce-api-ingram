@@ -2,16 +2,11 @@ angular
     .module('app-ingram', ['restangular'])
     .config(config)
     .directive('debug', debug)
-    .filter('toString', toString);
+    .filter('firstArrayValue', firstArrayValue);
 
-function toString() {
+function firstArrayValue() {
 	return function(val) {
-		console.log('filter val:', val);
-		if (typeof(val) === 'object') {
-			
-		}
-
-		return val;
+		return val[0];
 	}
 }
 

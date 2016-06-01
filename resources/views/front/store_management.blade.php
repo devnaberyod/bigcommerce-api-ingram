@@ -9,7 +9,7 @@
  			<label for="">Select Brand:</label>
  			<select name="" id="">
  				<option>Select One</option>
- 				<option ng-repeat="brand in product.brands" ng-if="brand">[[brand]]</option>
+ 				<option ng-repeat="brand in product.brands">[[brand|firstArrayValue]]</option>
  			</select>
  			<label for="">Filter:</label>
  			<select name="" id="">
