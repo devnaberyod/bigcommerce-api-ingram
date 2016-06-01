@@ -26,7 +26,7 @@
 				<!-- Sign up form -->
 				<div class="form-container signup-form">
 					<h3>Register</h3>
-					<form action="">
+					<form action="" class="frm-signup">
 						<div class="form-field">
 							<input type="text" placeholder="First Name">
 						</div>
@@ -63,12 +63,13 @@
 				<!-- Log in form -->
 				<div class="form-container login-form hidden">
 					<h3>Log in</h3>
-					<form action="">
+					<div class="alert alert-danger" style="display:none" id="login-error">Invalid Username/Password</div>
+					<form action="POST" class="frm-login">
 						<div class="form-field wide">
-							<input type="text" placeholder="Username">
+							<input type="email" placeholder="Email" name="email">
 						</div>
 						<div class="form-field wide">
-							<input type="text" placeholder="Password">
+							<input type="password" placeholder="Password" name="password">
 						</div>
 						<div class="form-field wide"><input type="submit" value="Sign in"></div>
 					</form>

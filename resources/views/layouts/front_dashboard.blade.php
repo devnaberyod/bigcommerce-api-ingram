@@ -23,10 +23,10 @@
 				<a href="{{ url('/settings') }}"><i class="fa fa-gears"></i>Settings</a>
 			</li>
 			<li>
-				<a href="{{ url('/account') }}"><i class="fa fa-user"></i>Account</a>
+				<a href="#"><i class="fa fa-user"></i>Account</a>
 				<ul>
 					<li><a href="#">Profile</a></li>
-					<li><a href="#">Logout</a></li>
+					<li><a href="/">Logout</a></li>
 				</ul>
 			</li>
 		</ul>

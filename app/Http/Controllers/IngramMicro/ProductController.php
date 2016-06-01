@@ -20,7 +20,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return IngramProduct::skip(1)->take(30)->get();
+        return IngramProduct::skip(1)->take(100)->get();
     }
     /**
      * Show the form for creating a new resource.
