@@ -149,7 +149,7 @@ class ProductController extends Controller
               
                 $category = new IngramCategory;
 
-                $category->category_id = substr($data[0], -4);
+                $category->category_id = $data[0];
                 $category->description = $data[1];
                 $category->level = $data[2];
                
