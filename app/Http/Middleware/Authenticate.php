@@ -17,18 +17,10 @@ class Authenticate
      */
     public function handle($request, Closure $next, $guard = null)
     {
-        exit;
-        if ( ! $request->is('im/*'))
-            return parent::handle($request, $next);
-       
-        if (Auth::guard($guard)->guest()) {
-            if ($request->ajax() || $request->wantsJson()) {
-                return response('Unauthorized.', 401);
-            } else {
-                return redirect()->guest('login');
-            }
+        if (auth()->check() && auth()->user()) {
+            return $next($request);
         }
 
-        return $next($request);
+        return redirect('/');
     }
 }

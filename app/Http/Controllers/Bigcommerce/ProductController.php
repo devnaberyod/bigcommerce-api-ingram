@@ -13,19 +13,16 @@ class ProductController extends Controller
 
   public function __construct(Request $request)
   {
-  	$origin = $request->headers->get('Origin');
-  	echo $origin; exit;
-  	if (!$origin) return 'Invalid client origin.';
-
-  	$client = ClientCredential::where('base_url_origin', $origin)->firstOrFail();
-
-  	if (!$client) return 'Client Origin not recognized.';
-
-  	Bigcommerce::configure(array(
-  	    'store_url' => $client->api_path,
-  	    'username'  => $client->username,
-  	    'api_key'   => $client->api_key
-  	));
+  	$origin = $request->headers->get('origin');
+  	$client = ClientCredential::where('base_url_origin', $origin)->first();
+    
+    if ($client) {
+      Bigcommerce::configure(array(
+          'store_url' => $client->api_path,
+          'username'  => $client->username,
+          'api_key'   => $client->api_key
+      ));  
+    }
   }
   /**
    * Display a listing of the resource.

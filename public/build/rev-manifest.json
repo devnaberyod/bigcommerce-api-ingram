@@ -1,8 +1,8 @@
 {
-  "build/css/vendor.css": "build/css/vendor-e4df2a3481.css",
-  "build/js/common.js": "build/js/common-c9cac21c38.js",
-  "build/js/vendor.js": "build/js/vendor-50c2cfa9b4.js",
-  "css/dashboard.css": "css/dashboard-c3d7d8dbf3.css",
-  "css/home.css": "css/home-9cefeb7279.css",
+  "build/css/vendor.css": "build/css/vendor-e0d31e4a01.css",
+  "build/js/common.js": "build/js/common-dbb5b44199.js",
+  "build/js/vendor.js": "build/js/vendor-dc38703bec.js",
+  "css/dashboard.css": "css/dashboard-ce16320756.css",
+  "css/home.css": "css/home-8df1dd0c3a.css",
   "js/all.js": "js/all-d32821a27f.js"
 }

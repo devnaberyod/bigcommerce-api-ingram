@@ -39,6 +39,9 @@ elixir(function(mix) {
     	"underscore-min.js",
     	"restangular.js",
         "bootstrap.min.js",
+        "amcharts/amcharts.js",
+        "amcharts/serial.js",
+        "boardcharts.js",
     ], 'public/build/js/vendor.js');
 });
 

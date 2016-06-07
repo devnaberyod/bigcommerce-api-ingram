@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "03b9f7ad2eeb3f9dfea4859f77eb0c26",
-    "content-hash": "9f53f73c1cc3269a794bdc1cc216fd72",
+    "hash": "78dd1dbdf4f88e54c79987768892e4ec",
+    "content-hash": "4476787eb5ff17dfaa457440c245f007",
     "packages": [
         {
             "name": "anchu/ftp",
@@ -346,23 +346,24 @@
         },
         {
             "name": "jenssegers/mongodb",
-            "version": "v2.3.0",
+            "version": "v3.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jenssegers/laravel-mongodb.git",
-                "reference": "22063084ea4370c3865b2364f56d0508f09ec4e8"
+                "reference": "e1c12ac063eb0d5f4f10cc91f6e269b67cae4e80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jenssegers/laravel-mongodb/zipball/22063084ea4370c3865b2364f56d0508f09ec4e8",
-                "reference": "22063084ea4370c3865b2364f56d0508f09ec4e8",
+                "url": "https://api.github.com/repos/jenssegers/laravel-mongodb/zipball/e1c12ac063eb0d5f4f10cc91f6e269b67cae4e80",
+                "reference": "e1c12ac063eb0d5f4f10cc91f6e269b67cae4e80",
                 "shasum": ""
             },
             "require": {
                 "illuminate/container": "^5.1",
                 "illuminate/database": "^5.1",
                 "illuminate/events": "^5.1",
-                "illuminate/support": "^5.1"
+                "illuminate/support": "^5.1",
+                "mongodb/mongodb": "^1.0.0"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9",
@@ -391,17 +392,18 @@
                     "homepage": "https://jenssegers.com"
                 }
             ],
-            "description": "A MongoDB based Eloquent model and Query builder for Laravel 4",
+            "description": "A MongoDB based Eloquent model and Query builder for Laravel (Moloquent)",
             "homepage": "https://github.com/jenssegers/laravel-mongodb",
             "keywords": [
                 "database",
                 "eloquent",
                 "laravel",
                 "model",
+                "moloquent",
                 "mongo",
                 "mongodb"
             ],
-            "time": "2016-02-03 23:25:16"
+            "time": "2016-03-04 21:34:41"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -672,6 +674,61 @@
                 "storage"
             ],
             "time": "2016-04-28 06:53:12"
+        },
+        {
+            "name": "mongodb/mongodb",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mongodb/mongo-php-library.git",
+                "reference": "faf8a1d86b5c10684ef91fa6c81475b0c7f95240"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mongodb/mongo-php-library/zipball/faf8a1d86b5c10684ef91fa6c81475b0c7f95240",
+                "reference": "faf8a1d86b5c10684ef91fa6c81475b0c7f95240",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongodb": "^1.1.0",
+                "php": ">=5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MongoDB\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Mikola",
+                    "email": "jmikola@gmail.com"
+                },
+                {
+                    "name": "Hannes Magnusson",
+                    "email": "bjori@mongodb.com"
+                },
+                {
+                    "name": "Derick Rethans",
+                    "email": "github@derickrethans.nl"
+                }
+            ],
+            "description": "MongoDB driver library",
+            "homepage": "https://jira.mongodb.org/browse/PHPLIB",
+            "keywords": [
+                "database",
+                "driver",
+                "mongodb",
+                "persistence"
+            ],
+            "time": "2016-03-30 19:10:28"
         },
         {
             "name": "monolog/monolog",

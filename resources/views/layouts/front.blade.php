@@ -26,33 +26,39 @@
 				<!-- Sign up form -->
 				<div class="form-container signup-form">
 					<h3>Register</h3>
-					<form action="" class="frm-signup">
-						<div class="form-field">
-							<input type="text" placeholder="First Name">
-						</div>
-						<div class="form-field">
-							<input type="text" placeholder="Last Name">
+					<form class="frm-signup" method="POST" action="{{ url('auth/register') }}">
+					 	{!! csrf_field() !!}
+						<div class="form-field wide">
+							<input name="name" type="text" placeholder="Name" value="{{ old('name') }}">
+							@if ($errors->has('name'))
+							    <span class="help-block">
+							        <strong>{{ $errors->first('name') }}</strong>
+							    </span>
+							@endif
 						</div>
 						<div class="form-field wide">
-							<input type="text" placeholder="Email">
+							<input name="email" type="email" placeholder="Email" value="{{ old('email') }}">
+							@if ($errors->has('email'))
+							    <span class="help-block">
+							        <strong>{{ $errors->first('email') }}</strong>
+							    </span>
+							@endif
 						</div>
-						<div class="form-field">
-							<input type="text" placeholder="Company">
+						<div class="form-field wide">
+							<input name="password" type="password" placeholder="Password">
+							@if ($errors->has('password'))
+							    <span class="help-block">
+							        <strong>{{ $errors->first('password') }}</strong>
+							    </span>
+							@endif
 						</div>
-						<div class="form-field">
-							<input type="text" placeholder="Job Title">
-						</div>
-						<div class="form-field">
-							<input type="text" placeholder="Phone">
-						</div>
-						<div class="form-field">
-							<input type="text" placeholder="Address">
-						</div>
-						<div class="form-field">
-							<input type="text" placeholder="State">
-						</div>
-						<div class="form-field">
-							<input type="text" placeholder="Post Code">
+						<div class="form-field wide">
+							<input name="password_confirmation" type="password" placeholder="Repeat Password">
+							@if ($errors->has('password_confirmation'))
+							    <span class="help-block">
+							        <strong>{{ $errors->first('password_confirmation') }}</strong>
+							    </span>
+							@endif
 						</div>
 						<div class="form-field wide">
 							<input type="submit" value="Sign Up">
@@ -64,14 +70,15 @@
 				<div class="form-container login-form hidden">
 					<h3>Log in</h3>
 					<div class="alert alert-danger" style="display:none" id="login-error">Invalid Username/Password</div>
-					<form action="POST" class="frm-login">
+					<form class="frm-login" method="POST" action="{{ url('auth/login') }}">
+						{!! csrf_field() !!}
 						<div class="form-field wide">
 							<input type="email" placeholder="Email" name="email">
 						</div>
 						<div class="form-field wide">
 							<input type="password" placeholder="Password" name="password">
 						</div>
-						<div class="form-field wide"><input type="submit" value="Sign in"></div>
+						<div class="form-field wide"><input class="submit-login" type="submit" value="Sign in"></div>
 					</form>
 					<p class="text-center">Not a member yet? <a class="sign-up-btn">Sign up</a>.</p>
 				</div>

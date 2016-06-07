@@ -79,18 +79,26 @@ var dropdown = (function(){
 })();
 
 $('form.frm-login').on('submit', function(e) {
+	var self = $(this);
+	var submitButton = $('input.submit-login');
+
+	submitButton.attr('disabled', 'disabled');
+	submitButton.val('Please wait..');
+
+	$.ajax({
+		url: self.attr('action'),
+		type: 'post',
+		data: self.serialize(),
+		dataType: 'json',
+		success: function(response) {
+			if (response.error == 0)
+				window.location.replace("/store-management");
+			else {
+				alert(response.message);
+				submitButton.val('Sign In');
+				submitButton.removeAttr('disabled');
+			}
+		}
+	});
 	e.preventDefault();
-	var data = $(this).serializeArray();
-	var email = data[0].value
-		password = data[1].value;
-
-	console.log(email, password)
-
-	if('tim.dickinson@cleverlocal.com.au' === email && '12345' === password) {
-		window.location.replace("/store-management");
-		return;
-	}
-	
-	console.log('Invalid username/password');
-	$('div#login-error').fadeIn().fadeOut(3000);
 });

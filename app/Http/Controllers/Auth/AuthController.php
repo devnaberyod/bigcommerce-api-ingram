@@ -2,8 +2,10 @@
 
 namespace ClevAppBcRestApi\Http\Controllers\Auth;
 
-use ClevAppBcRestApi\User;
+use Auth;
+use ClevAppBcRestApi\Authentication\AppUser;
 use Validator;
+use Illuminate\Http\Request;
 use ClevAppBcRestApi\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
@@ -29,7 +31,8 @@ class AuthController extends Controller
      * @var string
      */
     protected $redirectTo = '/';
-    protected $redirectPath = '/home';
+    protected $redirectPath = '/dashboard';
+
 
     /**
      * Create a new authentication controller instance.
@@ -39,6 +42,31 @@ class AuthController extends Controller
     public function __construct()
     {
         $this->middleware($this->guestMiddleware(), ['except' => 'logout']);
+    }
+
+    // /**
+    //  * Handle an authentication attempt.
+    //  * TODO: Improve the process
+    //  * @return Response
+    //  */
+    public function login(Request $request)
+    {
+        $email = $request->input('email');
+        $password = $request->input('password');
+        $response = [];
+        $response['email'] = $email;
+        $response['error'] = 0;
+        
+        if (Auth::attempt(['email' => $email, 'password' => $password]))
+        {
+            $response['message'] = 'Success';
+            return response()->json($response);
+        }
+
+        $response['message'] = 'Invalid Credentials';
+        $response['error'] = 1;
+
+        return response()->json($response);
     }
 
     /**
@@ -56,18 +84,15 @@ class AuthController extends Controller
         ]);
     }
 
-    /**
-     * Create a new user instance after a valid registration.
-     *
-     * @param  array  $data
-     * @return User
-     */
-    protected function create(array $data)
-    {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
+    protected function create($data)
+    {  
+        $user = new AppUser();
+        $user->name = $data['name'];
+        $user->email = $data['email'];
+        $user->password = $data['password'];
+
+        $user->save();
+
+        return $user;
     }
 }

@@ -164,6 +164,7 @@ return [
         ClevAppBcRestApi\Providers\AuthServiceProvider::class,
         ClevAppBcRestApi\Providers\EventServiceProvider::class,
         ClevAppBcRestApi\Providers\RouteServiceProvider::class,
+        ClevAppBcRestApi\Authentication\AuthServiceProvider::class,
 
         Laralib\L5scaffold\GeneratorsServiceProvider::class,
         Anchu\Ftp\FtpServiceProvider::class,

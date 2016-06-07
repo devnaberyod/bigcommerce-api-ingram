@@ -1,11 +1,16 @@
 @blue 		: #2a94fd;
 @black  	: #171717;
 
+@red 		: #FF7878;
+@green 		: #31AD91;
+@orange 	: #FF9800;
+
 body{
 	margin: 0;
 	padding: 0;
 	background: #F9F9F9;
 	font-family: Roboto;
+	font-weight: 300;
 }
 
 a,
@@ -160,6 +165,189 @@ a:focus{
 	}
 }
 
+// dashboard
+
+.board{
+	.dash1{
+		margin-left: -20px;
+		margin-top: -20px;
+	}
+	section{
+		padding-left: 20px;
+	    padding-top: 20px;
+		width: 25%;
+	    float: left;
+
+	    .content{
+	    	display: inline-block;
+		    vertical-align: middle;
+		    padding: 0 20px;
+	    }
+
+	    .title{
+		    vertical-align: middle;
+	        font-weight: 100;
+	        margin: 0;
+            margin-bottom: 4px;
+	    }
+
+	    .value{
+    	    font-size: 27px;
+	        margin: 0;
+	    }
+
+		.wrapper{
+			background: #fff;
+		    box-shadow: 0px 1px 2px rgba(236, 236, 236, 0.8);
+		    padding: 20px;
+		}
+
+	}
+}
+
+// sections
+
+section{
+	&.notifs{
+		width: 40%;
+
+		.wrapper{
+			position: relative;
+			padding: 24px;
+		}
+
+		figure{
+			display: inline-block;
+		    font-size: 20px;
+		    width: 45px;
+		    height: 45px;
+		    line-height: 40px;
+		    text-align: center;
+		    background: @blue;
+		    color: #fff;
+		    border-radius: 50%;
+		    padding: 13px 0;
+		    margin: 0;
+		    margin-right: 20px;
+
+		    &.done{
+				background: @green;
+		    }
+
+		    &.alert{
+				background: @red;
+		    }
+
+		    &.warning{
+				background: @orange;
+		    }
+		}
+
+		ul{
+			padding: 0;
+
+			li{
+				display: none;
+				opacity: 0;
+				transition:all 0.3s;
+				
+				p{
+					display: inline-block;
+				}
+
+				&.active{
+					display: block;
+					opacity: 1;
+				}
+			}
+		}
+
+		.nav{
+			position: absolute;
+			right: 0;
+			top: 0;
+		    width: 60px;
+
+			.nav-left,
+			.nav-right{
+				padding: 40px 10px;
+				display: inline-block;
+				color: @blue;
+			}
+
+			i{
+				font-size: 20px;
+			}
+		}
+	}
+
+	&.order-status{
+		width: 20%;
+
+	    .title{
+		    text-align: center;
+	    }
+
+	    figure{
+	        display: inline-block;
+		    padding: 30px;
+		    font-size: 40px;
+		    vertical-align: middle;
+		    color: #fff;
+	    }
+
+	    .wrapper{
+	    	padding: 0;
+	    }
+
+		&:nth-child(2){
+			figure{
+				background: @green;	
+			}
+
+			.value{
+				color: @green;		
+			}
+		}
+		
+		&:nth-child(3){
+			figure{
+				background: @orange;	
+			}
+
+			.value{
+				color: @orange;		
+			}
+		}
+
+		&:nth-child(4){
+			figure{
+				background: @red;	
+			}
+
+			.value{
+				color: @red;		
+			}
+		}
+	}
+
+    &.line-chart{
+    	width: 70%;
+
+    	.wrapper{
+    		padding: 20px 0 20px 20px;
+    	}
+    }
+
+    &.bar-graph{
+    	width: 30%;
+
+    	.wrapper{
+    		padding: 20px;
+    	}
+    }
+}
+
 table{
 	width: 100%;
 	font-size: 14px;
@@ -249,4 +437,11 @@ table{
 		    }
 		}
 	}
+}
+
+// chart
+
+#canvas{
+	width: 70%;
+	height: auto;
 }

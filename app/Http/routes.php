@@ -12,24 +12,31 @@
 */
 
 Route::get('/', function () {
+	if (auth()->check() && auth()->user()) {
+		return redirect()->route('dashboard');
+	}
+
     return view('front/home');
 });
 
-Route::get('/dashboard', function () {
-    return view('front/dashboard');
+Route::group(['middleware' => 'auth'], function () {
+	Route::get('/dashboard', ['as' => 'dashboard', function () {
+	    return view('front/dashboard');
+	}]);
+
+	Route::get('/store-management', function () {
+	    return view('front/store_management');
+	});
+
+	Route::get('/settings', function () {
+	    return view('front/settings');
+	});
+
+	Route::get('/account', function () {
+	    return view('front/account');
+	});
 });
 
-Route::get('/store-management', function () {
-    return view('front/store_management');
-});
-
-Route::get('/settings', function () {
-    return view('front/settings');
-});
-
-Route::get('/account', function () {
-    return view('front/account');
-});
 
 Route::group(['prefix' => 'bc/v1'], function () {
 	Route::get('products/reviews', 'Bigcommerce\ProductController@reviews');
@@ -58,11 +65,7 @@ Route::group(['prefix' => 'im/v1'], function () {
 
 });
 
-// Route::auth();
-
-Route::get('/home', 'HomeController@index');
-Route::get('/login', 'HomeController@index');
-
-Route::group(['prefix' => 'admin'], function () {
-	Route::resource("tweets","TweetController");
+Route::group(['prefix' => 'auth'], function() {
+	Route::auth();
 });
+

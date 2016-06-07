@@ -65,9 +65,13 @@ return [
     */
 
     'providers' => [
+        // 'users' => [
+        //     'driver' => 'eloquent',
+        //     'model' => ClevAppBcRestApi\User::class,
+        // ],
+
         'users' => [
-            'driver' => 'eloquent',
-            'model' => ClevAppBcRestApi\User::class,
+            'driver' => 'ingram_app_user_provider',
         ],
 
         // 'users' => [
