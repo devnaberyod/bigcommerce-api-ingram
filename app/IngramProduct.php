@@ -2,7 +2,7 @@
 
 namespace ClevAppBcRestApi;
 
-use Jenssegers\Mongodb\Model as Moloquent;
+use Jenssegers\Mongodb\Eloquent\Model as Moloquent;
 
 class IngramProduct extends Moloquent
 {
