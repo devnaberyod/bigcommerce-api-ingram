@@ -15,7 +15,7 @@ Route::get('/', function () {
 	if (auth()->check() && auth()->user()) {
 		return redirect()->route('dashboard');
 	}
-
+	
     return view('front/home');
 });
 

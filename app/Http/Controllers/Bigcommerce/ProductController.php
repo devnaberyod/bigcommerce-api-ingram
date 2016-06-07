@@ -2,6 +2,8 @@
 
 namespace ClevAppBcRestApi\Http\Controllers\Bigcommerce;
 
+use Cache;
+use Carbon\Carbon;
 use ClevAppBcRestApi\Http\Controllers\Controller;
 use ClevAppBcRestApi\ClientCredential;
 use Bigcommerce\Api\Client as Bigcommerce;
@@ -109,7 +111,11 @@ class ProductController extends Controller
   */
   public function reviews()
   {
-
+    if (Cache::has('product_reviews'))
+    {
+        return response()->json(\Cache::get('product_reviews'));
+    }
+    
   	$products = Bigcommerce::getProducts();
 
   	if (!$products) return 'Store has no products.';
@@ -118,6 +124,7 @@ class ProductController extends Controller
 
   	foreach ($products as $key => $value) {
   		$id = $value->id;
+        
   		$reviews = Bigcommerce::getProductReviews($id);
   		
   		if (!$reviews) continue;
@@ -136,6 +143,9 @@ class ProductController extends Controller
   		}
   	
   	}
+
+    $expiresAt = Carbon::now()->addMinutes(30);
+    Cache::put('product_reviews', $productReviews, $expiresAt);
 
   	return response()->json($productReviews);
   	
