@@ -13,15 +13,18 @@ class ProductController extends Controller
 
   public function __construct(Request $request)
   {
-  	$origin = $request->headers->get('origin');
-  	$client = ClientCredential::where('base_url_origin', $origin)->first();
-    
+    $origin = $request->headers->get('origin');
+
+    if (!$origin) $origin = 'http://www.cravecoffee.com.au'; //default if get request just for testing
+
+    $client = ClientCredential::where('base_url_origin', $origin)->first();
+
     if ($client) {
-      Bigcommerce::configure(array(
-          'store_url' => $client->api_path,
-          'username'  => $client->username,
-          'api_key'   => $client->api_key
-      ));  
+        Bigcommerce::configure(array(
+        'store_url' => $client->api_path,
+        'username'  => $client->username,
+        'api_key'   => $client->api_key
+        ));
     }
   }
   /**
